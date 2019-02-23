@@ -1,6 +1,6 @@
-Helm chart repository provided by Sparebanken Vest. See https://github.com/SparebankenVest/public-helm-charts/ for list and documentation of our Helm charts.
+Helm chart repository provided by Sparebanken Vest. See [https://github.com/SparebankenVest/public-helm-charts/](https://github.com/SparebankenVest/public-helm-charts/) for list and documentation of our Helm charts.
 
-## Add helm repo
+## Add repo to Helm
 
 ```bash
 helm repo add spv-charts https://charts.spv.no
