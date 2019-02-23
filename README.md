@@ -1,4 +1,4 @@
-Helm chart repository provided by Sparebanken Vest. See [https://github.com/SparebankenVest/public-helm-charts/](https://github.com/SparebankenVest/public-helm-charts/) for list and documentation of our Helm charts.
+Helm chart repository provided by Sparebanken Vest. See [https://github.com/SparebankenVest/public-helm-charts/tree/master/stable](https://github.com/SparebankenVest/public-helm-charts/tree/master/stable) for list and documentation of our Helm charts.
 
 ## Add repo to Helm
 
