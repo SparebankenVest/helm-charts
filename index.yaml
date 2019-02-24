@@ -3,10 +3,10 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-02-24T11:31:42.662019548Z
+    created: 2019-02-24T11:38:30.172741771Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
-    digest: ebfa13262bee1c64e3d5a5d1e12f5695271434b4b70302a1cfc497103080299e
+    digest: 2cbb4c63323e4d243230952e30037a6e69cf70299863ae81fb6ee0f6c4ee9633
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -17,10 +17,10 @@ entries:
   azure-key-vault-to-kubernetes:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-02-24T11:31:42.662417213Z
+    created: 2019-02-24T11:38:30.17325909Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
-    digest: 22bd65623021c07f5cc24950be504078d1c9b414d704d695b4aca4154191d50a
+    digest: c999f6f04873457a07f4192d230b9df313d0aa4459679487ac976864d5781ea2
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -28,4 +28,4 @@ entries:
     urls:
     - azure-key-vault-to-kubernetes/azure-key-vault-to-kubernetes-0.1.0-alpha.2.tgz
     version: 0.1.0-alpha.2
-generated: 2019-02-24T11:31:42.661674915Z
+generated: 2019-02-24T11:38:30.172255541Z
