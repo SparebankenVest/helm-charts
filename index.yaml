@@ -3,10 +3,10 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-24T18:03:46.519600172Z
+    created: 2019-02-24T18:11:57.606022876Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
-    digest: 7c7bc8ff4e477ff1a0dca0d17b86c95771466020544cc22c64c0c06c53ecf1ad
+    digest: 18a920f1065529b898e285d88310be19437d5469ed83a83338485a4bf22ebac8
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -16,7 +16,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-02-24T18:03:46.519343608Z
+    created: 2019-02-24T18:11:57.605750164Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: edaf338636e47ea444d0f8720bb67e7505a2554e0c1df6c22533dca6a3fb21aa
@@ -30,10 +30,10 @@ entries:
   azure-key-vault-to-kubernetes:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-24T18:03:46.520518754Z
+    created: 2019-02-24T18:11:57.606866072Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
-    digest: 7a4c8d95780893bd31b620c0d43df7d4a71a537beb066be591e4e563dfe9f580
+    digest: b6ece4865898453b19f62ebe01e4c910cc1f204862b256108d45a60edbb0d704
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -43,7 +43,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-02-24T18:03:46.520073045Z
+    created: 2019-02-24T18:11:57.606428912Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
     digest: 79b2b78a7527e75b6618380bc4a1e006abaf46c54abea0e785160a492621f69d
@@ -54,4 +54,4 @@ entries:
     urls:
     - azure-key-vault-to-kubernetes/azure-key-vault-to-kubernetes-0.1.0-alpha.2.tgz
     version: 0.1.0-alpha.2
-generated: 2019-02-24T18:03:46.518907665Z
+generated: 2019-02-24T18:11:57.605309178Z
