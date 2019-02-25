@@ -3,10 +3,10 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-25T11:01:29.648935422Z
+    created: 2019-02-25T11:30:00.875066605Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
-    digest: dc492be03bbc9cdee478f217eeee092e0b87bd83b68a60cfe62c86d200fd5291
+    digest: c6bdc69a51ac8d47534510118464d7db74600df59de22ddda9757ff8288cf3c6
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -16,7 +16,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-02-25T11:01:29.648682534Z
+    created: 2019-02-25T11:30:00.874751103Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: edaf338636e47ea444d0f8720bb67e7505a2554e0c1df6c22533dca6a3fb21aa
@@ -30,7 +30,7 @@ entries:
   azure-key-vault-to-kubernetes:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-25T11:01:29.650597933Z
+    created: 2019-02-25T11:30:00.876963499Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
     digest: bd884b319ca7fd0bc238c683944a1e0175f4a42920f1ea9a29cd2b88ddfc588c
@@ -43,7 +43,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-02-25T11:01:29.650187898Z
+    created: 2019-02-25T11:30:00.876494163Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
     digest: 79b2b78a7527e75b6618380bc4a1e006abaf46c54abea0e785160a492621f69d
@@ -56,10 +56,10 @@ entries:
     version: 0.1.0-alpha.2
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-25T11:01:29.649778833Z
+    created: 2019-02-25T11:30:00.876034653Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
-    digest: 5dde057c452bf5c3a65f230ef47d24b46fefc8bc2eed83500f7f29cc79357cfb
+    digest: c142499dc095d25668ee244a168af6c8b1639cc225ddd0852bb19c7fbb48543d
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -69,7 +69,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-25T11:01:29.649361655Z
+    created: 2019-02-25T11:30:00.875529772Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
     digest: 7be15cffc1c6220ecff7a64da6b0f311cb7754ac40f513cb78c199384592cb2f
@@ -80,4 +80,4 @@ entries:
     urls:
     - azure-key-vault-to-kubernetes/azure-key-vault-to-kubernetes-0.0.1.tgz
     version: 0.0.1
-generated: 2019-02-25T11:01:29.64822287Z
+generated: 2019-02-25T11:30:00.874292945Z
