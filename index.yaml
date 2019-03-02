@@ -3,9 +3,9 @@ entries:
   aad-pod-identity:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-02-25T18:52:26.515294197Z
+    created: 2019-03-02T15:42:47.64124829Z
     description: A chart to deploy the components needed for AAD pod identity
-    digest: 1f818b3f571616a2121e9d32ac7361d77a60a22b24ade01aa34f3bba0363e145
+    digest: 3fe670a957c2b7b68ce0b378135b9ca704e307fe3d1ac4f1b44a22a5d7bbfc29
     name: aad-pod-identity
     urls:
     - aad-pod-identity/aad-pod-identity-0.1.0.tgz
@@ -13,10 +13,10 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-25T18:52:26.515831468Z
+    created: 2019-03-02T15:42:47.641765163Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
-    digest: ccda68da55c75f6a9a22dd669ba358fb5fda55de02830d502d33d7343c22ac3c
+    digest: f0108fbb6c0ed1f0264242f157e69ba412150de4ef2177ec1b9c3b1063d083ed
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -26,7 +26,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-02-25T18:52:26.515582931Z
+    created: 2019-03-02T15:42:47.641528408Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: edaf338636e47ea444d0f8720bb67e7505a2554e0c1df6c22533dca6a3fb21aa
@@ -37,10 +37,24 @@ entries:
     urls:
     - azure-key-vault-controller/azure-key-vault-controller-0.1.0-alpha.2.tgz
     version: 0.1.0-alpha.2
+  azure-key-vault-crd:
+  - apiVersion: v1
+    appVersion: 0.1.0-alpha.5
+    created: 2019-03-02T15:42:47.641937218Z
+    description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
+      Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
+    digest: 621f851748c4e97ba3f482fb1e6d077ed0b2b6ab0aa8210da6e1e2a3b45a34fd
+    maintainers:
+    - email: jon.torresdal@spv.no
+      name: Sparebanken Vest
+    name: azure-key-vault-crd
+    urls:
+    - azure-key-vault-crd/azure-key-vault-crd-0.1.0.tgz
+    version: 0.1.0
   azure-key-vault-to-kubernetes:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-25T18:52:26.517805015Z
+    created: 2019-03-02T15:42:47.644106858Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
     digest: bd884b319ca7fd0bc238c683944a1e0175f4a42920f1ea9a29cd2b88ddfc588c
@@ -53,7 +67,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-02-25T18:52:26.517380534Z
+    created: 2019-03-02T15:42:47.643492227Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
     digest: 79b2b78a7527e75b6618380bc4a1e006abaf46c54abea0e785160a492621f69d
@@ -66,10 +80,10 @@ entries:
     version: 0.1.0-alpha.2
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-25T18:52:26.516965252Z
+    created: 2019-03-02T15:42:47.642997517Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
-    digest: d52888983b013401786e83dd1702b10f915d796d84bb0912f69769951be3e0d0
+    digest: 05e01c04f870c86ad0e336547064d8468684d6516c390a3ada4033e09fb9e438
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -79,7 +93,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-02-25T18:52:26.516320237Z
+    created: 2019-03-02T15:42:47.642359345Z
     description: A Helm chart that deploys both the azure-key-vault-controller and
       the azure-key-vault-webhook Helm charts
     digest: 7be15cffc1c6220ecff7a64da6b0f311cb7754ac40f513cb78c199384592cb2f
@@ -90,4 +104,4 @@ entries:
     urls:
     - azure-key-vault-to-kubernetes/azure-key-vault-to-kubernetes-0.0.1.tgz
     version: 0.0.1
-generated: 2019-02-25T18:52:26.514839117Z
+generated: 2019-03-02T15:42:47.640813072Z
