@@ -3,9 +3,9 @@ entries:
   aad-pod-identity:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-03-03T19:47:45.24841878Z
+    created: 2019-03-03T20:21:15.102064329Z
     description: A chart to deploy the components needed for AAD pod identity
-    digest: 2a85eaf00a1f37db759f2443afe1327a317ed97c768d3badb2ac9bacd388e6dc
+    digest: 126a3f2c5f4374996acba7d3fd265bdf981252c8df5d11420a2c6fc8f3941c64
     name: aad-pod-identity
     urls:
     - aad-pod-identity/aad-pod-identity-0.1.0.tgz
@@ -13,10 +13,10 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-03T19:47:45.249535381Z
+    created: 2019-03-03T20:21:15.103933847Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
-    digest: 7674f78f47e9538fbf8da065a22e05993157df04d75b314105e126ab18f73c90
+    digest: 01563047b8a0269a5bb8a48e76c0c55d9eb810f9713f24bec49c65e73af08444
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -26,7 +26,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-03T19:47:45.248964181Z
+    created: 2019-03-03T20:21:15.102935294Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: f0108fbb6c0ed1f0264242f157e69ba412150de4ef2177ec1b9c3b1063d083ed
@@ -39,7 +39,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-03-03T19:47:45.248710698Z
+    created: 2019-03-03T20:21:15.102526246Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: edaf338636e47ea444d0f8720bb67e7505a2554e0c1df6c22533dca6a3fb21aa
@@ -53,10 +53,10 @@ entries:
   azure-key-vault-crd:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-03T19:47:45.249731214Z
+    created: 2019-03-03T20:21:15.104271884Z
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
-    digest: b99bf6200bb0047bcc9c5c14b5e3cb6e838add28248ecc8ad822615dfcc76168
+    digest: aeaed249bf824aef1e68853f3e16b81b77b71a19765608df6d44afe1fde581c3
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -67,7 +67,19 @@ entries:
   azure-key-vault-env-injector:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-03T19:47:45.251349853Z
+    created: 2019-03-03T20:21:15.107479305Z
+    description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
+    digest: 0c3f3aa1b588dd021743cb654b4730f77e3c7e3260f10b37ab69e6103e24bbd4
+    maintainers:
+    - email: jon.torresdal@spv.no
+      name: Sparebanken Vest
+    name: azure-key-vault-env-injector
+    urls:
+    - azure-key-vault-env-injector/azure-key-vault-env-injector-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v1
+    appVersion: 0.1.0-alpha.5
+    created: 2019-03-03T20:21:15.106817313Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: dd50b34409d628b066ceb03be2b248e8e124bb9d8c5335c94dbba4ba8131f100
     maintainers:
@@ -79,7 +91,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-03T19:47:45.250953727Z
+    created: 2019-03-03T20:21:15.106180073Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 1c869e4d9dc003fb294685d5960e056f36df7ae8e0fe93ba99186affa5a8f09a
     maintainers:
@@ -91,7 +103,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-03T19:47:45.250360339Z
+    created: 2019-03-03T20:21:15.105222931Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 66127e7e7d4b2ded2d59122e151cb6b0908cbdb308755a5288dad756d57ed579
     maintainers:
@@ -101,4 +113,4 @@ entries:
     urls:
     - azure-key-vault-env-injector/azure-key-vault-env-injector-0.0.3.tgz
     version: 0.0.3
-generated: 2019-03-03T19:47:45.247991078Z
+generated: 2019-03-03T20:21:15.101373209Z
