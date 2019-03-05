@@ -3,9 +3,9 @@ entries:
   aad-pod-identity:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-03-05T17:12:06.444836283Z
+    created: 2019-03-05T17:15:53.372464622Z
     description: A chart to deploy the components needed for AAD pod identity
-    digest: 9c4729f97f0eddbd4061688fec6ac4496801263ee4067637b08cad8f59256d89
+    digest: 6d488bc9b1ad0f25d5a1c1f7e8d9a0e41e757dcb2c11391026ae97543bd0e00e
     name: aad-pod-identity
     urls:
     - aad-pod-identity/aad-pod-identity-0.1.0.tgz
@@ -13,10 +13,10 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: 2019-03-05T17:12:06.446500431Z
+    created: 2019-03-05T17:15:53.373979574Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
-    digest: 308fd2e952938d22bf742c42422d6c1d9d57ea83993e7393d7c1c74047ee327f
+    digest: dceb18975d5779e8b9f9d85a51e849bdf5c2ae2b8247bfbfa363572eb06f0700
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -26,7 +26,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.445979634Z
+    created: 2019-03-05T17:15:53.373632712Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 65f4f70ba1c07a7f95ffda38944cca65e4416c039857c182b3b3d07f6428b258
@@ -39,7 +39,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.445412168Z
+    created: 2019-03-05T17:15:53.373034564Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: f0108fbb6c0ed1f0264242f157e69ba412150de4ef2177ec1b9c3b1063d083ed
@@ -52,7 +52,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-03-05T17:12:06.445163154Z
+    created: 2019-03-05T17:15:53.372754607Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: edaf338636e47ea444d0f8720bb67e7505a2554e0c1df6c22533dca6a3fb21aa
@@ -66,10 +66,10 @@ entries:
   azure-key-vault-crd:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.446672223Z
+    created: 2019-03-05T17:15:53.374151224Z
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
-    digest: 0f0bce732eae6f9f6c367bbe932ca072878a32f096fbaea8ac4b65f5dd3e45a9
+    digest: da91b7b79692550870e0a66cca06fa13e64f901f5e133ce24d71489c7f472377
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -79,8 +79,20 @@ entries:
     version: 0.1.0
   azure-key-vault-env-injector:
   - apiVersion: v1
+    appVersion: 0.1.0-alpha.18
+    created: 2019-03-05T17:15:53.374535404Z
+    description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
+    digest: 3c897d3c7c9d3293d4afdd3fdedc4b0ce7f355981def965b664400a32ad539e2
+    maintainers:
+    - email: jon.torresdal@spv.no
+      name: Sparebanken Vest
+    name: azure-key-vault-env-injector
+    urls:
+    - azure-key-vault-env-injector/azure-key-vault-env-injector-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.449791874Z
+    created: 2019-03-05T17:15:53.378686736Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 7f809ad238dd9280fed74890f51e0c349e17665111d5a37571ab04e8e1cc0eb9
     maintainers:
@@ -92,7 +104,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.449379046Z
+    created: 2019-03-05T17:15:53.37827503Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 7d3a8eb7dddbed2eac38e3c3cf03e911aced89e45026d9ba03d4cc9e535e5f64
     maintainers:
@@ -104,7 +116,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.448988364Z
+    created: 2019-03-05T17:15:53.376965691Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 3b580f353ca5302a1cf5924196a0a96aa116ed9309c38399386f5f336714e296
     maintainers:
@@ -116,7 +128,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.448615969Z
+    created: 2019-03-05T17:15:53.376537178Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 0c3f3aa1b588dd021743cb654b4730f77e3c7e3260f10b37ab69e6103e24bbd4
     maintainers:
@@ -128,7 +140,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.448211035Z
+    created: 2019-03-05T17:15:53.376132592Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: dd50b34409d628b066ceb03be2b248e8e124bb9d8c5335c94dbba4ba8131f100
     maintainers:
@@ -140,7 +152,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.447814212Z
+    created: 2019-03-05T17:15:53.375704186Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 1c869e4d9dc003fb294685d5960e056f36df7ae8e0fe93ba99186affa5a8f09a
     maintainers:
@@ -152,7 +164,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T17:12:06.447231345Z
+    created: 2019-03-05T17:15:53.375101273Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 66127e7e7d4b2ded2d59122e151cb6b0908cbdb308755a5288dad756d57ed579
     maintainers:
@@ -162,4 +174,4 @@ entries:
     urls:
     - azure-key-vault-env-injector/azure-key-vault-env-injector-0.0.3.tgz
     version: 0.0.3
-generated: 2019-03-05T17:12:06.444416605Z
+generated: 2019-03-05T17:15:53.372024317Z
