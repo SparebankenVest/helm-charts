@@ -3,9 +3,9 @@ entries:
   aad-pod-identity:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-03-05T18:51:11.937708786Z
+    created: 2019-03-05T18:59:14.204624764Z
     description: A chart to deploy the components needed for AAD pod identity
-    digest: 6e1b68ccd0ceb6470fc7fd4f3944725d208d9885809364f7190408fcb4922d31
+    digest: 0ae1217e6faf27209e7f3162f3748f715187a65ddc33f3e4c1747eb625ac95e3
     name: aad-pod-identity
     urls:
     - aad-pod-identity/aad-pod-identity-0.1.0.tgz
@@ -13,7 +13,20 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: 2019-03-05T18:51:11.940168182Z
+    created: 2019-03-05T18:59:14.207486163Z
+    description: A Helm chart that deploys a Kubernetes controller that transform
+      Azure Key Vault Secrets into Kubernetes Secrets
+    digest: 1ff1aa4d69f8a2b28a1aec66512c54fea29b2d4d63410d41206dbab179bb865b
+    maintainers:
+    - email: jon.torresdal@spv.no
+      name: Sparebanken Vest
+    name: azure-key-vault-controller
+    urls:
+    - azure-key-vault-controller/azure-key-vault-controller-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    appVersion: 0.1.0-alpha.19
+    created: 2019-03-05T18:59:14.207146389Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 3453d8a0ffc7c373600a7e9eb94125457151761bd692799d97fdeeb92325ada8
@@ -26,7 +39,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: 2019-03-05T18:51:11.939827098Z
+    created: 2019-03-05T18:59:14.206807905Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 7158cf4d2320a50e2658491f15df113b194c938901fb9a920ff6cd901b0aa970
@@ -39,7 +52,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: 2019-03-05T18:51:11.939462256Z
+    created: 2019-03-05T18:59:14.206465867Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 324d4316377b1c1a907ec569dfc1e5ea5975cbc635afa358087c102237ba7e85
@@ -52,7 +65,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: 2019-03-05T18:51:11.939124093Z
+    created: 2019-03-05T18:59:14.206114639Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: dceb18975d5779e8b9f9d85a51e849bdf5c2ae2b8247bfbfa363572eb06f0700
@@ -65,7 +78,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.938792292Z
+    created: 2019-03-05T18:59:14.205750224Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 65f4f70ba1c07a7f95ffda38944cca65e4416c039857c182b3b3d07f6428b258
@@ -78,7 +91,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.938229098Z
+    created: 2019-03-05T18:59:14.205183995Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: f0108fbb6c0ed1f0264242f157e69ba412150de4ef2177ec1b9c3b1063d083ed
@@ -91,7 +104,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: 2019-03-05T18:51:11.937988492Z
+    created: 2019-03-05T18:59:14.204943154Z
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: edaf338636e47ea444d0f8720bb67e7505a2554e0c1df6c22533dca6a3fb21aa
@@ -105,10 +118,10 @@ entries:
   azure-key-vault-crd:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.94034652Z
+    created: 2019-03-05T18:59:14.207659219Z
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
-    digest: 4a001c7f9857e798c8dbf1fae34f32ddaf670b33372fced0b1a2e424f9a599bd
+    digest: 70f7dd33362e912be28932dadbfdfbefa2afa5f3a17835b24e0f06d88a40e826
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -119,9 +132,9 @@ entries:
   azure-key-vault-env-injector:
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: 2019-03-05T18:51:11.941094073Z
+    created: 2019-03-05T18:59:14.208439407Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
-    digest: 1f544c14eadb33bdfd6511e321746a85837fd1dd9d0544c1b6e1ab2bbaf91570
+    digest: cea73e78843f3adc586812d657a7adcf860e1bb7912191028fc1c69b93c6d01f
     maintainers:
     - email: jon.torresdal@spv.no
       name: Sparebanken Vest
@@ -131,7 +144,7 @@ entries:
     version: 0.0.11
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: 2019-03-05T18:51:11.940722491Z
+    created: 2019-03-05T18:59:14.208039195Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 3c897d3c7c9d3293d4afdd3fdedc4b0ce7f355981def965b664400a32ad539e2
     maintainers:
@@ -143,7 +156,7 @@ entries:
     version: 0.0.10
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.945054135Z
+    created: 2019-03-05T18:59:14.212388657Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 7f809ad238dd9280fed74890f51e0c349e17665111d5a37571ab04e8e1cc0eb9
     maintainers:
@@ -155,7 +168,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.944661363Z
+    created: 2019-03-05T18:59:14.212017366Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 7d3a8eb7dddbed2eac38e3c3cf03e911aced89e45026d9ba03d4cc9e535e5f64
     maintainers:
@@ -167,7 +180,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.944257999Z
+    created: 2019-03-05T18:59:14.21158315Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 3b580f353ca5302a1cf5924196a0a96aa116ed9309c38399386f5f336714e296
     maintainers:
@@ -179,7 +192,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.943068763Z
+    created: 2019-03-05T18:59:14.211206119Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 0c3f3aa1b588dd021743cb654b4730f77e3c7e3260f10b37ab69e6103e24bbd4
     maintainers:
@@ -191,7 +204,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.942667123Z
+    created: 2019-03-05T18:59:14.210834044Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: dd50b34409d628b066ceb03be2b248e8e124bb9d8c5335c94dbba4ba8131f100
     maintainers:
@@ -203,7 +216,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.94226213Z
+    created: 2019-03-05T18:59:14.210443669Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 1c869e4d9dc003fb294685d5960e056f36df7ae8e0fe93ba99186affa5a8f09a
     maintainers:
@@ -215,7 +228,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: 2019-03-05T18:51:11.941655512Z
+    created: 2019-03-05T18:59:14.209087269Z
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 66127e7e7d4b2ded2d59122e151cb6b0908cbdb308755a5288dad756d57ed579
     maintainers:
@@ -225,4 +238,4 @@ entries:
     urls:
     - azure-key-vault-env-injector/azure-key-vault-env-injector-0.0.3.tgz
     version: 0.0.3
-generated: 2019-03-05T18:51:11.937293554Z
+generated: 2019-03-05T18:59:14.204198848Z
