@@ -3,6 +3,6 @@ Helm chart repository provided by Sparebanken Vest. See [https://github.com/Spar
 ## Add repo to Helm
 
 ```bash
-helm repo add spv-charts https://charts.spv.no
+helm repo add spv-charts http://charts.spvapi.no
 helm repo update
 ```
