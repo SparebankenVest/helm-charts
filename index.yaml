@@ -3,7 +3,7 @@ entries:
   aad-pod-identity:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-25T15:21:27.075596111Z"
+    created: "2020-02-25T15:27:03.31265578Z"
     description: A chart to deploy the components needed for AAD pod identity
     digest: 990587349f462e94d5900d42e2c79f57c508facd5258e8fcd6028438f8f091d1
     name: aad-pod-identity
@@ -13,7 +13,7 @@ entries:
   akv2k8s:
   - apiVersion: v2
     appVersion: 1.0.0-beta.13
-    created: "2020-02-25T15:21:27.078789642Z"
+    created: "2020-02-25T15:27:03.316048278Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: 2ad53e1e24f8e30e8536ff6a07a4db28db22415e85c9aa47177367f24d4e810a
@@ -28,7 +28,7 @@ entries:
     version: 1.0.0-beta.13
   - apiVersion: v2
     appVersion: 1.0.0-beta.12
-    created: "2020-02-25T15:21:27.078007534Z"
+    created: "2020-02-25T15:27:03.315287078Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: a538d59bf926c3fd7169701cf68b95fd9045949261de399806d152469c1747e5
@@ -43,7 +43,7 @@ entries:
     version: 1.0.0-beta.12
   - apiVersion: v2
     appVersion: 1.0.0-beta.11
-    created: "2020-02-25T15:21:27.077185426Z"
+    created: "2020-02-25T15:27:03.314413179Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: 46093cf9013e72abd493906128a85a6aeffbf4e893bac1a82a9d54220e0a9a62
@@ -58,7 +58,7 @@ entries:
     version: 1.0.0-beta.11
   - apiVersion: v2
     appVersion: 1.0.0-beta.10
-    created: "2020-02-25T15:21:27.076401619Z"
+    created: "2020-02-25T15:27:03.313556179Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: f9500ae886e58f9f4d7e252c08b9e9ed384c0c76799ec9723b2ec6af497136b8
@@ -73,7 +73,7 @@ entries:
     version: 1.0.0-beta.10
   - apiVersion: v2
     appVersion: 1.0.0-beta.9
-    created: "2020-02-25T15:21:27.07962265Z"
+    created: "2020-02-25T15:27:03.316850078Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: ae2f6b71100813648f1bc89f6f6870cd2be14629d8f87dc7580bf9c4c2506143
@@ -89,7 +89,25 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2020-02-25T15:21:27.093085577Z"
+    created: "2020-02-25T15:27:03.330249571Z"
+    dependencies:
+    - condition: installCrd
+      name: azure-key-vault-crd
+      repository: https://charts.spvapi.no
+      version: 0.1.1
+    description: A Helm chart that deploys a Kubernetes controller that transform
+      Azure Key Vault Secrets into Kubernetes Secrets
+    digest: 6eb80642fa3e4b017db3fb0efbc2b95893fdd1aca35cd8f344bd42b2fdc538f9
+    maintainers:
+    - email: jon.torresdal@spv.no
+      name: Sparebanken Vest
+    name: azure-key-vault-controller
+    urls:
+    - azure-key-vault-controller/azure-key-vault-controller-0.1.24.tgz
+    version: 0.1.24
+  - apiVersion: v1
+    appVersion: 0.1.15
+    created: "2020-02-25T15:27:03.329632271Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -107,7 +125,7 @@ entries:
     version: 0.1.23
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2020-02-25T15:21:27.09239237Z"
+    created: "2020-02-25T15:27:03.329006072Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -125,7 +143,7 @@ entries:
     version: 0.1.22
   - apiVersion: v1
     appVersion: 0.1.14
-    created: "2020-02-25T15:21:27.091704164Z"
+    created: "2020-02-25T15:27:03.328310272Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -143,7 +161,7 @@ entries:
     version: 0.1.21
   - apiVersion: v1
     appVersion: 0.1.14
-    created: "2020-02-25T15:21:27.091015657Z"
+    created: "2020-02-25T15:27:03.327469772Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -161,7 +179,7 @@ entries:
     version: 0.1.20
   - apiVersion: v1
     appVersion: 0.1.8
-    created: "2020-02-25T15:21:27.089636644Z"
+    created: "2020-02-25T15:27:03.326209073Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -179,7 +197,7 @@ entries:
     version: 0.1.19
   - apiVersion: v1
     appVersion: 0.1.6
-    created: "2020-02-25T15:21:27.088945338Z"
+    created: "2020-02-25T15:27:03.325640873Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -197,7 +215,7 @@ entries:
     version: 0.1.18
   - apiVersion: v1
     appVersion: 0.1.4
-    created: "2020-02-25T15:21:27.088239231Z"
+    created: "2020-02-25T15:27:03.325065174Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -215,7 +233,7 @@ entries:
     version: 0.1.17
   - apiVersion: v1
     appVersion: 0.1.2
-    created: "2020-02-25T15:21:27.087482124Z"
+    created: "2020-02-25T15:27:03.324387574Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -233,7 +251,7 @@ entries:
     version: 0.1.16
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2020-02-25T15:21:27.086740617Z"
+    created: "2020-02-25T15:27:03.323782174Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -251,7 +269,7 @@ entries:
     version: 0.1.15
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-02-25T15:21:27.08603091Z"
+    created: "2020-02-25T15:27:03.323205975Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -269,7 +287,7 @@ entries:
     version: 0.1.14
   - apiVersion: v1
     appVersion: 0.1.0-alpha.20
-    created: "2020-02-25T15:21:27.085146502Z"
+    created: "2020-02-25T15:27:03.322549275Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -287,7 +305,7 @@ entries:
     version: 0.1.13
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2020-02-25T15:21:27.084267093Z"
+    created: "2020-02-25T15:27:03.321188276Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -305,7 +323,7 @@ entries:
     version: 0.1.12
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2020-02-25T15:21:27.082733179Z"
+    created: "2020-02-25T15:27:03.320090176Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -323,7 +341,7 @@ entries:
     version: 0.1.11
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2020-02-25T15:21:27.082101773Z"
+    created: "2020-02-25T15:27:03.319456376Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -341,7 +359,7 @@ entries:
     version: 0.1.10
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2020-02-25T15:21:27.09869513Z"
+    created: "2020-02-25T15:27:03.335602068Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -359,7 +377,7 @@ entries:
     version: 0.1.9
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2020-02-25T15:21:27.097201316Z"
+    created: "2020-02-25T15:27:03.334913369Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -377,7 +395,7 @@ entries:
     version: 0.1.8
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2020-02-25T15:21:27.096211706Z"
+    created: "2020-02-25T15:27:03.334222169Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -395,7 +413,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2020-02-25T15:21:27.095108396Z"
+    created: "2020-02-25T15:27:03.33318247Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -413,7 +431,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2020-02-25T15:21:27.094409389Z"
+    created: "2020-02-25T15:27:03.33223477Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -431,7 +449,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2020-02-25T15:21:27.093743183Z"
+    created: "2020-02-25T15:27:03.330994771Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -448,7 +466,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2020-02-25T15:21:27.09030575Z"
+    created: "2020-02-25T15:27:03.326781973Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -465,7 +483,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.081488267Z"
+    created: "2020-02-25T15:27:03.318851777Z"
     dependencies:
     - condition: aad-pod-identity.enabled
       name: aad-pod-identity
@@ -486,7 +504,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.080429357Z"
+    created: "2020-02-25T15:27:03.317663477Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: f0108fbb6c0ed1f0264242f157e69ba412150de4ef2177ec1b9c3b1063d083ed
@@ -499,7 +517,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: "2020-02-25T15:21:27.080043353Z"
+    created: "2020-02-25T15:27:03.317268277Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: edaf338636e47ea444d0f8720bb67e7505a2554e0c1df6c22533dca6a3fb21aa
@@ -513,7 +531,7 @@ entries:
   azure-key-vault-crd:
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2020-02-25T15:21:27.099270635Z"
+    created: "2020-02-25T15:27:03.336222768Z"
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
     digest: 4a05c96fa4b01904ccb5927b561d9f5d67943f70b5d0db90a52bccc49bd31cb5
@@ -526,7 +544,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-02-25T15:21:27.099003033Z"
+    created: "2020-02-25T15:27:03.335863568Z"
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
     digest: f7b8d2deb90ff8882ce915789141d7316e579fc054cecd3ef4dc173f5fded700
@@ -540,7 +558,24 @@ entries:
   azure-key-vault-env-injector:
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2020-02-25T15:21:27.11878822Z"
+    created: "2020-02-25T15:27:03.355350859Z"
+    dependencies:
+    - condition: installCrd
+      name: azure-key-vault-crd
+      repository: https://charts.spvapi.no
+      version: 0.1.1
+    description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
+    digest: fb8b64443d6eae4d8808f25b6fee35c52b1ef0082b0bee62ea3e869a4c35afc0
+    maintainers:
+    - email: jon.torresdal@spv.no
+      name: Sparebanken Vest
+    name: azure-key-vault-env-injector
+    urls:
+    - azure-key-vault-env-injector/azure-key-vault-env-injector-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: 0.1.15
+    created: "2020-02-25T15:27:03.354681259Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -557,7 +592,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2020-02-25T15:21:27.117982112Z"
+    created: "2020-02-25T15:27:03.353757459Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -574,7 +609,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.1.14
-    created: "2020-02-25T15:21:27.117178004Z"
+    created: "2020-02-25T15:27:03.35306676Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -591,7 +626,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.1.10
-    created: "2020-02-25T15:21:27.116361097Z"
+    created: "2020-02-25T15:27:03.35238566Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -608,7 +643,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.9
-    created: "2020-02-25T15:21:27.115511089Z"
+    created: "2020-02-25T15:27:03.35167166Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -625,7 +660,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.1.8
-    created: "2020-02-25T15:21:27.114649981Z"
+    created: "2020-02-25T15:27:03.351007361Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -642,7 +677,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.6
-    created: "2020-02-25T15:21:27.106053499Z"
+    created: "2020-02-25T15:27:03.341866565Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -659,7 +694,7 @@ entries:
     version: 0.0.17
   - apiVersion: v1
     appVersion: 0.1.3
-    created: "2020-02-25T15:21:27.105188491Z"
+    created: "2020-02-25T15:27:03.341071366Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -676,7 +711,7 @@ entries:
     version: 0.0.16
   - apiVersion: v1
     appVersion: 0.1.2
-    created: "2020-02-25T15:21:27.104360383Z"
+    created: "2020-02-25T15:27:03.340308366Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -693,7 +728,7 @@ entries:
     version: 0.0.15
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2020-02-25T15:21:27.102537966Z"
+    created: "2020-02-25T15:27:03.339586066Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -710,7 +745,7 @@ entries:
     version: 0.0.14
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2020-02-25T15:21:27.101720558Z"
+    created: "2020-02-25T15:27:03.338772567Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -727,7 +762,7 @@ entries:
     version: 0.0.12
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2020-02-25T15:21:27.100898151Z"
+    created: "2020-02-25T15:27:03.338023267Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -743,7 +778,7 @@ entries:
     version: 0.0.11
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2020-02-25T15:21:27.100099643Z"
+    created: "2020-02-25T15:27:03.337221068Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -759,7 +794,7 @@ entries:
     version: 0.0.10
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.113831973Z"
+    created: "2020-02-25T15:27:03.350308361Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -775,7 +810,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.112991465Z"
+    created: "2020-02-25T15:27:03.349585761Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -791,7 +826,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.111659052Z"
+    created: "2020-02-25T15:27:03.348364862Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -807,7 +842,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.110212939Z"
+    created: "2020-02-25T15:27:03.346958463Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -823,7 +858,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.109403131Z"
+    created: "2020-02-25T15:27:03.345614763Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -839,7 +874,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.108586723Z"
+    created: "2020-02-25T15:27:03.344208964Z"
     dependencies:
     - condition: aad-pod-identity.enabled
       name: aad-pod-identity
@@ -859,7 +894,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2020-02-25T15:21:27.107344312Z"
+    created: "2020-02-25T15:27:03.342961365Z"
     dependencies:
     - condition: aad-pod-identity.enabled
       name: aad-pod-identity
@@ -877,4 +912,4 @@ entries:
     urls:
     - azure-key-vault-env-injector/azure-key-vault-env-injector-0.0.3.tgz
     version: 0.0.3
-generated: "2020-02-25T15:21:27.075013506Z"
+generated: "2020-02-25T15:27:03.31199288Z"
