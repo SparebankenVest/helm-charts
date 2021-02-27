@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   akv2k8s:
   - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2021-02-27T17:02:47.528909631Z"
+    description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
+      Kubernetes
+    digest: 56d013c1fcde5c92f435ddf17913527606b671e83d8379e3e4c1966e91b7803f
+    icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/docs/static/images/akvk8s.png
+    maintainers:
+    - email: jon@torresdal.net
+      name: Jon Arild Tørresdal
+      url: https://mrdevops.io
+    name: akv2k8s
+    urls:
+    - akv2k8s/akv2k8s-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.705180565Z"
+    created: "2021-02-27T17:02:47.527452328Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 4246e3e29444c24a6c316e7278ea83995eeb3d5e84dead141e49d20ad9ad3ac1
@@ -18,7 +33,7 @@ entries:
     version: 2.0.0-beta.59
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.702364416Z"
+    created: "2021-02-27T17:02:47.526098625Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: bd12fcf6ef857fc0b46693961fde9423c7e35803f598144501f6302921ef6dfb
@@ -33,7 +48,7 @@ entries:
     version: 2.0.0-beta.58
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.700180478Z"
+    created: "2021-02-27T17:02:47.52427182Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: b90ab1e8766289121b609b9528fc4dc349aa3379459ad377f57cb38b07e344b8
@@ -48,7 +63,7 @@ entries:
     version: 2.0.0-beta.57
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.698800955Z"
+    created: "2021-02-27T17:02:47.522251615Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 5316dadc0e78896720c0b1b4c78291d74c014f83267b808037f2a6a76a0d5340
@@ -63,7 +78,7 @@ entries:
     version: 2.0.0-beta.56
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.697438631Z"
+    created: "2021-02-27T17:02:47.520849612Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 717f152ee387d1aabb20e6c6a25146406648f1a036b1957e04321d69232b6525
@@ -78,7 +93,7 @@ entries:
     version: 2.0.0-beta.55
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.696055207Z"
+    created: "2021-02-27T17:02:47.519440609Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 662eee755fdc75a18e6f2adde8113470d2a9aff1f190ca96445c9704e4fbec39
@@ -93,7 +108,7 @@ entries:
     version: 2.0.0-beta.54
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.694638283Z"
+    created: "2021-02-27T17:02:47.518085405Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 1f1e90ef4ae67e77a361386651ced16aa3b0b851046b9f20c83df59ac9bfbe8b
@@ -108,7 +123,7 @@ entries:
     version: 2.0.0-beta.53
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.693277459Z"
+    created: "2021-02-27T17:02:47.516640802Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 775ff7036a0241458bb64e05fb357cd81ef2c062bbe50ca336cfb98048ffe5bb
@@ -123,7 +138,7 @@ entries:
     version: 2.0.0-beta.52
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.691907036Z"
+    created: "2021-02-27T17:02:47.515184398Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 69ab93ac9308fea765ea46ce7c68ea6bbd043b3b5ae68b94545758aee1dce662
@@ -138,7 +153,7 @@ entries:
     version: 2.0.0-beta.51
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.690520512Z"
+    created: "2021-02-27T17:02:47.513868195Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 5a2b2b230578616fbbd34a6ff1e643950aba56ec5f6a404103977aff840e4e36
@@ -153,7 +168,7 @@ entries:
     version: 2.0.0-beta.50
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.688855183Z"
+    created: "2021-02-27T17:02:47.512394292Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 58ad35517e175a81e1a632401af3fd3714812ce96f60a25d62cddcd7d1c9943a
@@ -168,7 +183,7 @@ entries:
     version: 2.0.0-beta.49
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.686646345Z"
+    created: "2021-02-27T17:02:47.510753688Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: b5639639f359ed4cf29e8562be0a7e1acaa39f64e02ccfbdac39ea0245a7b560
@@ -183,7 +198,7 @@ entries:
     version: 2.0.0-beta.48
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.685262721Z"
+    created: "2021-02-27T17:02:47.508589782Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: a5345964855d6d1c1d135e020e621856390afd1c841165bf105f44b6f32131f4
@@ -198,7 +213,7 @@ entries:
     version: 2.0.0-beta.47
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.683948199Z"
+    created: "2021-02-27T17:02:47.507331379Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 9008ade75f30dce3c11038b32f61ef8779bd52006a48607e5be8c00dce0671d4
@@ -213,7 +228,7 @@ entries:
     version: 2.0.0-beta.46
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.682622076Z"
+    created: "2021-02-27T17:02:47.506019576Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 021b0403f7eefd591eb8163605cb5f53e02f3aedad7a1cc9dc97f84c63834790
@@ -228,7 +243,7 @@ entries:
     version: 2.0.0-beta.45
   - apiVersion: v2
     appVersion: 1.2.0-beta.42
-    created: "2021-02-25T13:11:19.681297953Z"
+    created: "2021-02-27T17:02:47.504709073Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: dbb8dec29ee6c9b31741343c916447d4d30bba8b32f557e5b5f90b2fa2f55a5f
@@ -243,7 +258,7 @@ entries:
     version: 2.0.0-beta.44
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.67998543Z"
+    created: "2021-02-27T17:02:47.50334177Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 7a6ffb90bf8e1478a7de3b11fdb668be0737e48ea6f239e9bb7e4c61ae41afd2
@@ -258,7 +273,7 @@ entries:
     version: 2.0.0-beta.43
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.678667108Z"
+    created: "2021-02-27T17:02:47.501967166Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 309f1a64e74d910a9cffdc6dff4ead69952cd6944db25b2689ca27ede19517df
@@ -273,7 +288,7 @@ entries:
     version: 2.0.0-beta.42
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.677358385Z"
+    created: "2021-02-27T17:02:47.500524163Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 36e17f33814c06d04a969d488ad4b03c028081463adf0d28055d5e9641c17a79
@@ -288,7 +303,7 @@ entries:
     version: 2.0.0-beta.41
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.675637155Z"
+    created: "2021-02-27T17:02:47.495784452Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 051691ec4313deb6a1f53f681743bc3c9f9557d8a06ab903b615fcd2fa61228d
@@ -303,7 +318,7 @@ entries:
     version: 2.0.0-beta.40
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.673689522Z"
+    created: "2021-02-27T17:02:47.494584849Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: b05a0b0475fec28f6bc7fade28b5643b54a5c0cc6eb6104238b3dc31ea1d0bc3
@@ -318,7 +333,7 @@ entries:
     version: 2.0.0-beta.39
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.6724279Z"
+    created: "2021-02-27T17:02:47.493305746Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 6ea0b56cc673ad1f819221287896c135b59cc8691ecf42ce94d810c3b9611e4a
@@ -333,7 +348,7 @@ entries:
     version: 2.0.0-beta.38
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.671160878Z"
+    created: "2021-02-27T17:02:47.492130243Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: feae2d692e3b5223400b6d4814081644382fc8c4dfc831edd9c5f18698fab829
@@ -348,7 +363,7 @@ entries:
     version: 2.0.0-beta.37
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.668863139Z"
+    created: "2021-02-27T17:02:47.49097764Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 7c2d61a09a80877d1acb258c47e3b3e8b03d2994c8798133f484480826725048
@@ -363,7 +378,7 @@ entries:
     version: 2.0.0-beta.36
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.667607617Z"
+    created: "2021-02-27T17:02:47.489851737Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 634bea09f3c218174c8da27fefcbc22b29d4be1f98cb96f346d0dbdd3a551884
@@ -378,7 +393,7 @@ entries:
     version: 2.0.0-beta.35
   - apiVersion: v2
     appVersion: 1.2.0-beta.41
-    created: "2021-02-25T13:11:19.666388496Z"
+    created: "2021-02-27T17:02:47.488704734Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: a7238bf1b66822b756cb87bb60cf578875fb2f28a8302468a72e8a2fdcffae5a
@@ -393,7 +408,7 @@ entries:
     version: 2.0.0-beta.34
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.665148574Z"
+    created: "2021-02-27T17:02:47.485890328Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: f7002e64271b8932f1bb3174097e1999a4a0880162749606e7fd9bd49c870032
@@ -408,7 +423,7 @@ entries:
     version: 2.0.0-beta.33
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.663878953Z"
+    created: "2021-02-27T17:02:47.484607525Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 9065ef823ccacdf6529ad6d7dd3c53dd55fa5adde0d645261660821ae2b834b5
@@ -423,7 +438,7 @@ entries:
     version: 2.0.0-beta.32
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.66258743Z"
+    created: "2021-02-27T17:02:47.482967621Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: bb351b326c72f74e947d6042cea17e10052b49c67077dfb12bf227a196cbb742
@@ -438,7 +453,7 @@ entries:
     version: 2.0.0-beta.31
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.659594879Z"
+    created: "2021-02-27T17:02:47.480910616Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 8ee1dc22183ef3ac269515a31a3032e3d29a19e311e7ee52fc88c5dbb62daced
@@ -453,7 +468,7 @@ entries:
     version: 2.0.0-beta.30
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.657758847Z"
+    created: "2021-02-27T17:02:47.479827513Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 3a353019d0141eba79ce7a00fbb4acfb5aad98a064223574346a243cbaa92c40
@@ -468,7 +483,7 @@ entries:
     version: 2.0.0-beta.29
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.656578727Z"
+    created: "2021-02-27T17:02:47.47873251Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 27c11e1dc0a6b0c07aaa3526f1c29397e343aff042acd578ce10b14703a4c219
@@ -483,7 +498,7 @@ entries:
     version: 2.0.0-beta.28
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.655412007Z"
+    created: "2021-02-27T17:02:47.477509307Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 34efea57ff374e06a801909653a0aee07367793993210f9d3c4d23e4f0029766
@@ -498,7 +513,7 @@ entries:
     version: 2.0.0-beta.27
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.654173685Z"
+    created: "2021-02-27T17:02:47.476146704Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: ae61e7b51d2547025e1d7dc4f56dfdc3e72b7dca4c9b89dffdd83127f545e631
@@ -513,7 +528,7 @@ entries:
     version: 2.0.0-beta.26
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.653055666Z"
+    created: "2021-02-27T17:02:47.475116202Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 681f1b924c5aee34f384590f85b45e78034ad6423e745d8011e50e1988c24307
@@ -528,7 +543,7 @@ entries:
     version: 2.0.0-beta.20
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.651970247Z"
+    created: "2021-02-27T17:02:47.473881699Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 2a378e755aeb6310abc78811107e4073e04488e13b5f594a360ba7fe5866465c
@@ -543,7 +558,7 @@ entries:
     version: 2.0.0-beta.19
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.640599051Z"
+    created: "2021-02-27T17:02:47.46177427Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 0f237db306c127124da9b534d6e01c42ea6c6d107a6e9d7091e0b61b4f137d89
@@ -558,7 +573,7 @@ entries:
     version: 1.2.0-beta.17
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.650789527Z"
+    created: "2021-02-27T17:02:47.472456195Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 8dac28b867b5956821cf9b74cc157adf0e670e7e0d04c51b1e212803cae596c5
@@ -573,7 +588,7 @@ entries:
     version: 1.2.0-beta.8
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.649639707Z"
+    created: "2021-02-27T17:02:47.471361593Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: a352efe6a8481eacc3fc5cf205ee1553a6d1f1c31de3d7f6cdb8e4809ec65aab
@@ -588,7 +603,7 @@ entries:
     version: 1.2.0-beta.7
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.648457387Z"
+    created: "2021-02-27T17:02:47.468917987Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 69d32a25a4cc0873b4b319968ed29ef14f4b9eb9de92c55b4364f8a2a822805c
@@ -603,7 +618,7 @@ entries:
     version: 1.2.0-beta.6
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.646519753Z"
+    created: "2021-02-27T17:02:47.467368483Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 7c634e243ee967a3cacbceec9ef13091a8e44866b86bf294716dbcd8280bf009
@@ -618,7 +633,7 @@ entries:
     version: 1.2.0-beta.5
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.644999227Z"
+    created: "2021-02-27T17:02:47.46606708Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 5ac73daa6291e78276e65746e57397c15aeb9a2c99521ba9a0f755a21af484e0
@@ -633,7 +648,7 @@ entries:
     version: 1.2.0-beta.4
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.643457701Z"
+    created: "2021-02-27T17:02:47.464709777Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: fee986a571cadb28d23a496c832b4c2e4fa4178806762930abf64d08fa4a2512
@@ -648,7 +663,7 @@ entries:
     version: 1.2.0-beta.3
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.642049076Z"
+    created: "2021-02-27T17:02:47.463307173Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: c75e1b79d98ca7b14a5113f3f04c4a36af667daf20a0147b86a7cde5359fb2f9
@@ -663,7 +678,7 @@ entries:
     version: 1.2.0-beta.2
   - apiVersion: v2
     appVersion: 1.2.0-beta.1
-    created: "2021-02-25T13:11:19.639462532Z"
+    created: "2021-02-27T17:02:47.460731967Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 6a8b83cf773374b6ea6850074c521d55b58155ae8eb141b0b1cb452de1790fe5
@@ -678,7 +693,7 @@ entries:
     version: 1.2.0-beta.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.629390858Z"
+    created: "2021-02-27T17:02:47.449233539Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: b073da16caa9fa60a64d058f4d4263f5895fce4a2f18dd4f8b68fe07b0a53f81
@@ -693,7 +708,7 @@ entries:
     version: 1.1.29-beta.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.628179437Z"
+    created: "2021-02-27T17:02:47.438608914Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: edd2e5ef182115c4ef0eadb29997bf586597049757f9070ebaa4f3a6b5210125
@@ -708,7 +723,7 @@ entries:
     version: 1.1.29-beta.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.626980717Z"
+    created: "2021-02-27T17:02:47.437337811Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: f3bdb1cfb460b21c1822d85064f65e90539cd7b140238f20024c0e056a2695f5
@@ -723,7 +738,7 @@ entries:
     version: 1.1.28
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.625839997Z"
+    created: "2021-02-27T17:02:47.436289408Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 325e330b5b693e25a23f762e3650ae3969d709d03ed89bfec634807b277fbe61
@@ -738,7 +753,7 @@ entries:
     version: 1.1.27
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.624700577Z"
+    created: "2021-02-27T17:02:47.435034405Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: c3c089712cd9878f88dbca1c831c25b637ab8b1dbde4bff25591cbca8cdd873b
@@ -753,7 +768,7 @@ entries:
     version: 1.1.26
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.623420255Z"
+    created: "2021-02-27T17:02:47.433718602Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 4e73bf189fd80ee0d0c6b3928d4f0afdff58df72499abeb7b3fade2d00c988b8
@@ -768,7 +783,7 @@ entries:
     version: 1.1.25
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.621664825Z"
+    created: "2021-02-27T17:02:47.432081398Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 7fa29e1cc87000c0db3046593237b2eee0518958330071c76b9338691dea222b
@@ -783,7 +798,7 @@ entries:
     version: 1.1.24
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.619868794Z"
+    created: "2021-02-27T17:02:47.430340394Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 3ae68bad494f6f7d625aafba356c8744be54734f46f85315848549e03e4cd724
@@ -798,7 +813,7 @@ entries:
     version: 1.1.23
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.618656873Z"
+    created: "2021-02-27T17:02:47.429028591Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: c27106bdc900c5f248f9350bd3b7c53cf10feaca658afe4f15886e2617556d71
@@ -813,7 +828,7 @@ entries:
     version: 1.1.22
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.617498053Z"
+    created: "2021-02-27T17:02:47.427875988Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 464bd7ae1a805ffdbabb50395a1a60e767d6fa300782e7a293e1208462b992d6
@@ -828,7 +843,7 @@ entries:
     version: 1.1.21
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.616303632Z"
+    created: "2021-02-27T17:02:47.426749085Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 63f7226b8289ffc3ef98c987e27f26642d0c60934abd63241e3d7b6d6c0e519c
@@ -843,7 +858,7 @@ entries:
     version: 1.1.20
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.614009093Z"
+    created: "2021-02-27T17:02:47.42447428Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 759dd411e92876c1e2de33bf135e8bb70495f95cdc6637deb21c7ff92ce5c8f3
@@ -858,7 +873,7 @@ entries:
     version: 1.1.19
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.612812572Z"
+    created: "2021-02-27T17:02:47.423058776Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 9d1633b9e7cf48a937cee90ff62a0aa9735334afb7cda1077f5fbd1db3826a93
@@ -873,7 +888,7 @@ entries:
     version: 1.1.18
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.611594051Z"
+    created: "2021-02-27T17:02:47.421522473Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 3669b3ffb151c491ee182a04b237b812836df76c55925312bb0a8e08c36c3f11
@@ -888,7 +903,7 @@ entries:
     version: 1.1.17
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.610407031Z"
+    created: "2021-02-27T17:02:47.42030647Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 47542a159a6e4c59dad2a587ff429b360d0645cf44329df838a15266675b85f5
@@ -903,7 +918,7 @@ entries:
     version: 1.1.16
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.6085944Z"
+    created: "2021-02-27T17:02:47.418320265Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 6ad834046c1dff04ac5142ebc718e674dc4025c67b920975675903e7692780f8
@@ -918,7 +933,7 @@ entries:
     version: 1.1.14
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.606408062Z"
+    created: "2021-02-27T17:02:47.41634556Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 8137d1efdd61109d91672976e70a10602551156117b022762ad41fa5f800a854
@@ -933,7 +948,7 @@ entries:
     version: 1.1.13
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.605239142Z"
+    created: "2021-02-27T17:02:47.414993957Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 97b3b6288f8c8c4eceb60f57692944d6dd17f5a8b442104608f2007d4b9a0ea3
@@ -948,7 +963,7 @@ entries:
     version: 1.1.12
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.604056221Z"
+    created: "2021-02-27T17:02:47.413595754Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 40bdf500c5e77975d12554c963c94069120ebd665f46fcceb14d382cc6fca18c
@@ -963,7 +978,7 @@ entries:
     version: 1.1.11
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.602942402Z"
+    created: "2021-02-27T17:02:47.412457451Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 1af967aa3bc4523439f39831d0c3737616803a097bbac1d876740e756cb2afbc
@@ -978,7 +993,7 @@ entries:
     version: 1.1.10
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.637883904Z"
+    created: "2021-02-27T17:02:47.459417964Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: a6b3b0b0a518d656c31b65c6aaed1a9ddbf1ad7e3ffb791c31c98fbf26af89e8
@@ -993,7 +1008,7 @@ entries:
     version: 1.1.9
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.636829386Z"
+    created: "2021-02-27T17:02:47.458344861Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 04c8ea5b2f34b3f338a21bb3c07fe398ed6c1669b6b96431a790230c1391f213
@@ -1008,7 +1023,7 @@ entries:
     version: 1.1.8
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.635767568Z"
+    created: "2021-02-27T17:02:47.457219759Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: fdae35f73632c92415fbc6900c9c0c215b1244e750391b02e3c3da6999b38a8a
@@ -1023,7 +1038,7 @@ entries:
     version: 1.1.7
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.634522247Z"
+    created: "2021-02-27T17:02:47.455381754Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 5c525e717e753954874ab213e8c940a3c0769abf658c65077a61233d482c4e07
@@ -1038,7 +1053,7 @@ entries:
     version: 1.1.6
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.633070321Z"
+    created: "2021-02-27T17:02:47.453338549Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: fb96f6366d8627ea1de5e327c42fff228ee2f173090776da3f0d48725ac05fb7
@@ -1053,7 +1068,7 @@ entries:
     version: 1.1.5
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.631723098Z"
+    created: "2021-02-27T17:02:47.451590245Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: a9722cd86ee1a38f0d459db6d84c446a4b2c29ce419b484598788c439027a93e
@@ -1068,7 +1083,7 @@ entries:
     version: 1.1.4
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.630446076Z"
+    created: "2021-02-27T17:02:47.450316042Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 3034448c6cbd0b661627cc5cb38e8c18e8e9f12ba71c0c55bf8edfe4d95b23c2
@@ -1083,7 +1098,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.615045811Z"
+    created: "2021-02-27T17:02:47.425501882Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 0546bc13491d10c4004baa38abc2279a116ea62f85b04520f41183f81fc341ba
@@ -1098,7 +1113,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.601900584Z"
+    created: "2021-02-27T17:02:47.411253948Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: e54f0b0051d0a6c37814d93fee99ddab1c8dc0dbcdc5539754889976d4124ac0
@@ -1113,7 +1128,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.600846866Z"
+    created: "2021-02-27T17:02:47.410161845Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: df9e84c77063107a0c1a684a196a4b2e0c792b01ed8fd9c98200dd3ceeff18da
@@ -1128,7 +1143,7 @@ entries:
     version: 1.1.1-beta.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.599769147Z"
+    created: "2021-02-27T17:02:47.408973942Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: c7f78dd2820fe9376981f16c1054afb763cd76db468c0831b2dd4c2cb7572114
@@ -1143,7 +1158,7 @@ entries:
     version: 1.1.1-beta.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.598725429Z"
+    created: "2021-02-27T17:02:47.407568239Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 753edbf3f88a8921e6e049a03bba97e7234349e0177ec97df528a2f4f3f5b9f8
@@ -1158,7 +1173,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.1-beta.44
-    created: "2021-02-25T13:11:19.597727312Z"
+    created: "2021-02-27T17:02:47.406575937Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 27ab3c4442a3510f5f05a151eb8d4a2ce4e3458ce2a95db0cd650dccbb22d8f9
@@ -1173,7 +1188,7 @@ entries:
     version: 1.1.0-beta.6
   - apiVersion: v2
     appVersion: 1.0.1-beta.44
-    created: "2021-02-25T13:11:19.596254087Z"
+    created: "2021-02-27T17:02:47.405441234Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: f4eadac7571c51482b6eaa10b1161205daf0a1485c1ebd2fd3d9f0c05e3e994d
@@ -1188,7 +1203,7 @@ entries:
     version: 1.1.0-beta.5
   - apiVersion: v2
     appVersion: 1.0.1-beta.44
-    created: "2021-02-25T13:11:19.594551157Z"
+    created: "2021-02-27T17:02:47.40395803Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 114e19d68b4c41483ca98a0bc7ac97daa3fc193e0e9010764be28cb004aa7c04
@@ -1203,7 +1218,7 @@ entries:
     version: 1.1.0-beta.4
   - apiVersion: v2
     appVersion: 1.0.1-beta.44
-    created: "2021-02-25T13:11:19.59295423Z"
+    created: "2021-02-27T17:02:47.402620427Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: e147d12d1798fe453ed4241c313a7ef62567c03fd0108fadff85281422ce3755
@@ -1218,7 +1233,7 @@ entries:
     version: 1.1.0-beta.3
   - apiVersion: v2
     appVersion: 1.0.1-beta.44
-    created: "2021-02-25T13:11:19.59179861Z"
+    created: "2021-02-27T17:02:47.401073223Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 519ac86e102a01c4524ff649f90315732c0ec5e4084ac7d5a278bb3b931c0a1f
@@ -1233,7 +1248,7 @@ entries:
     version: 1.1.0-beta.2
   - apiVersion: v2
     appVersion: 1.0.1-beta.44
-    created: "2021-02-25T13:11:19.590694391Z"
+    created: "2021-02-27T17:02:47.400022421Z"
     description: A Helm chart that deploys akv2k8s Controller and Env-Injector to
       Kubernetes
     digest: 1ed28c3598cc8ed508ea843176183e347e0beb146a3400d777963a42224a6c34
@@ -1248,7 +1263,7 @@ entries:
     version: 1.1.0-beta.1
   - apiVersion: v2
     appVersion: 1.0.0-beta.13
-    created: "2021-02-25T13:11:19.588952461Z"
+    created: "2021-02-27T17:02:47.398450717Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: 2ad53e1e24f8e30e8536ff6a07a4db28db22415e85c9aa47177367f24d4e810a
@@ -1263,7 +1278,7 @@ entries:
     version: 1.0.0-beta.13
   - apiVersion: v2
     appVersion: 1.0.0-beta.12
-    created: "2021-02-25T13:11:19.588185648Z"
+    created: "2021-02-27T17:02:47.397719715Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: a538d59bf926c3fd7169701cf68b95fd9045949261de399806d152469c1747e5
@@ -1278,7 +1293,7 @@ entries:
     version: 1.0.0-beta.12
   - apiVersion: v2
     appVersion: 1.0.0-beta.11
-    created: "2021-02-25T13:11:19.587352133Z"
+    created: "2021-02-27T17:02:47.396894413Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: 46093cf9013e72abd493906128a85a6aeffbf4e893bac1a82a9d54220e0a9a62
@@ -1293,7 +1308,7 @@ entries:
     version: 1.0.0-beta.11
   - apiVersion: v2
     appVersion: 1.0.0-beta.10
-    created: "2021-02-25T13:11:19.586519619Z"
+    created: "2021-02-27T17:02:47.396201512Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: f9500ae886e58f9f4d7e252c08b9e9ed384c0c76799ec9723b2ec6af497136b8
@@ -1308,7 +1323,7 @@ entries:
     version: 1.0.0-beta.10
   - apiVersion: v2
     appVersion: 1.0.0-beta.9
-    created: "2021-02-25T13:11:19.589712574Z"
+    created: "2021-02-27T17:02:47.399149419Z"
     description: A Helm chart that deploys the Azure Key Vault to Kubernetes Controller
       and Env-Injector to Kubernetes
     digest: ae2f6b71100813648f1bc89f6f6870cd2be14629d8f87dc7580bf9c4c2506143
@@ -1324,7 +1339,7 @@ entries:
   azure-key-vault-controller:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.73913505Z"
+    created: "2021-02-27T17:02:47.56155701Z"
     description: DEPRECATED! A Helm chart that deploys a Kubernetes controller that
       transform Azure Key Vault Secrets into Kubernetes Secrets
     digest: 412aeba5fd6611e537b05fd2061a182af649115dc7333ed18ad92e0705a40595
@@ -1337,7 +1352,7 @@ entries:
     version: 1.1.6
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.738514039Z"
+    created: "2021-02-27T17:02:47.560916908Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: e0e16fc177417f01005699e0b537542d5bc830914f0452e5d5de5be4af8d0bfd
@@ -1350,7 +1365,7 @@ entries:
     version: 1.1.5
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.737924229Z"
+    created: "2021-02-27T17:02:47.560268807Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 109c74633807dfa871434a5ea7796ada9db48736153335a609fa8d3a525d3eda
@@ -1363,7 +1378,7 @@ entries:
     version: 1.1.4
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.737365319Z"
+    created: "2021-02-27T17:02:47.559621805Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 48ea2b1c4ea90c792ab62352ef0f385cd8901631499bab2e38cbd48dda8e64ee
@@ -1376,7 +1391,7 @@ entries:
     version: 1.1.3
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.736750209Z"
+    created: "2021-02-27T17:02:47.558527003Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: c8a699adc1ad317e1d40a175db1024ac2b8a213d7c7faaf827b1fc0f8d4c8e7a
@@ -1389,7 +1404,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.736180099Z"
+    created: "2021-02-27T17:02:47.557747001Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: c5aec636cb379d12434210d2015f37e2becdaee7cd16790f0a36a53430be55fc
@@ -1402,7 +1417,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.734848676Z"
+    created: "2021-02-27T17:02:47.556724498Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 5b8719fb0c6fa0351379821fa8ebf893e3eaafb6744550fd4c106a1fa3690562
@@ -1415,7 +1430,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-beta.44
-    created: "2021-02-25T13:11:19.734111863Z"
+    created: "2021-02-27T17:02:47.556117197Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: 2c7001cfdff6a91ab79dcb9ab5d03f2385557851ac268cbd449fde9479624ddd
@@ -1428,7 +1443,7 @@ entries:
     version: 1.1.0-beta.7
   - apiVersion: v1
     appVersion: 1.1.0-beta.44
-    created: "2021-02-25T13:11:19.73333325Z"
+    created: "2021-02-27T17:02:47.555517895Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1446,7 +1461,7 @@ entries:
     version: 1.1.0-beta.5
   - apiVersion: v1
     appVersion: 1.1.0-beta.43
-    created: "2021-02-25T13:11:19.732232031Z"
+    created: "2021-02-27T17:02:47.554775494Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1464,7 +1479,7 @@ entries:
     version: 1.1.0-beta.4
   - apiVersion: v1
     appVersion: 1.1.0-beta.41
-    created: "2021-02-25T13:11:19.731170313Z"
+    created: "2021-02-27T17:02:47.554050292Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1482,7 +1497,7 @@ entries:
     version: 1.1.0-beta.3
   - apiVersion: v1
     appVersion: 1.1.0-beta.4
-    created: "2021-02-25T13:11:19.730288697Z"
+    created: "2021-02-27T17:02:47.55326269Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1500,7 +1515,7 @@ entries:
     version: 1.1.0-beta.2
   - apiVersion: v1
     appVersion: 1.1.0-beta.4
-    created: "2021-02-25T13:11:19.729637186Z"
+    created: "2021-02-27T17:02:47.552576988Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1518,7 +1533,7 @@ entries:
     version: 1.1.0-beta.1
   - apiVersion: v1
     appVersion: 1.0.2
-    created: "2021-02-25T13:11:19.728978375Z"
+    created: "2021-02-27T17:02:47.551871487Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1536,7 +1551,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-02-25T13:11:19.728297863Z"
+    created: "2021-02-27T17:02:47.551204685Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1554,7 +1569,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-02-25T13:11:19.72755515Z"
+    created: "2021-02-27T17:02:47.550528483Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1572,7 +1587,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.723255776Z"
+    created: "2021-02-27T17:02:47.545581571Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1590,7 +1605,7 @@ entries:
     version: 0.1.25
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.722583865Z"
+    created: "2021-02-27T17:02:47.54490607Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1608,7 +1623,7 @@ entries:
     version: 0.1.24
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.721942354Z"
+    created: "2021-02-27T17:02:47.544202568Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1626,7 +1641,7 @@ entries:
     version: 0.1.23
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.716975568Z"
+    created: "2021-02-27T17:02:47.543422066Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1644,7 +1659,7 @@ entries:
     version: 0.1.22
   - apiVersion: v1
     appVersion: 0.1.14
-    created: "2021-02-25T13:11:19.716347357Z"
+    created: "2021-02-27T17:02:47.542534664Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1662,7 +1677,7 @@ entries:
     version: 0.1.21
   - apiVersion: v1
     appVersion: 0.1.14
-    created: "2021-02-25T13:11:19.715388041Z"
+    created: "2021-02-27T17:02:47.541610362Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1680,7 +1695,7 @@ entries:
     version: 0.1.20
   - apiVersion: v1
     appVersion: 0.1.8
-    created: "2021-02-25T13:11:19.713445607Z"
+    created: "2021-02-27T17:02:47.539744357Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1698,7 +1713,7 @@ entries:
     version: 0.1.19
   - apiVersion: v1
     appVersion: 0.1.6
-    created: "2021-02-25T13:11:19.712816196Z"
+    created: "2021-02-27T17:02:47.538829555Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1716,7 +1731,7 @@ entries:
     version: 0.1.18
   - apiVersion: v1
     appVersion: 0.1.4
-    created: "2021-02-25T13:11:19.712189185Z"
+    created: "2021-02-27T17:02:47.537458452Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1734,7 +1749,7 @@ entries:
     version: 0.1.17
   - apiVersion: v1
     appVersion: 0.1.2
-    created: "2021-02-25T13:11:19.711528074Z"
+    created: "2021-02-27T17:02:47.536205649Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1752,7 +1767,7 @@ entries:
     version: 0.1.16
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2021-02-25T13:11:19.710904263Z"
+    created: "2021-02-27T17:02:47.535483747Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1770,7 +1785,7 @@ entries:
     version: 0.1.15
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2021-02-25T13:11:19.710284053Z"
+    created: "2021-02-27T17:02:47.534762445Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1788,7 +1803,7 @@ entries:
     version: 0.1.14
   - apiVersion: v1
     appVersion: 0.1.0-alpha.20
-    created: "2021-02-25T13:11:19.709672442Z"
+    created: "2021-02-27T17:02:47.534048744Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1806,7 +1821,7 @@ entries:
     version: 0.1.13
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2021-02-25T13:11:19.709045831Z"
+    created: "2021-02-27T17:02:47.532896441Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1824,7 +1839,7 @@ entries:
     version: 0.1.12
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2021-02-25T13:11:19.708436121Z"
+    created: "2021-02-27T17:02:47.53232034Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1842,7 +1857,7 @@ entries:
     version: 0.1.11
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2021-02-25T13:11:19.707755109Z"
+    created: "2021-02-27T17:02:47.531705638Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1860,7 +1875,7 @@ entries:
     version: 0.1.10
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2021-02-25T13:11:19.726923839Z"
+    created: "2021-02-27T17:02:47.549805882Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1878,7 +1893,7 @@ entries:
     version: 0.1.9
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2021-02-25T13:11:19.726330529Z"
+    created: "2021-02-27T17:02:47.54911488Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1896,7 +1911,7 @@ entries:
     version: 0.1.8
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2021-02-25T13:11:19.725691318Z"
+    created: "2021-02-27T17:02:47.548408178Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1914,7 +1929,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2021-02-25T13:11:19.725081808Z"
+    created: "2021-02-27T17:02:47.547687077Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1932,7 +1947,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2021-02-25T13:11:19.724480197Z"
+    created: "2021-02-27T17:02:47.546930475Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -1950,7 +1965,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2021-02-25T13:11:19.723873887Z"
+    created: "2021-02-27T17:02:47.546281273Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -1967,7 +1982,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2021-02-25T13:11:19.714548526Z"
+    created: "2021-02-27T17:02:47.54071636Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -1984,7 +1999,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.707104198Z"
+    created: "2021-02-27T17:02:47.531116937Z"
     dependencies:
     - condition: aad-pod-identity.enabled
       name: aad-pod-identity
@@ -2005,7 +2020,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.705997679Z"
+    created: "2021-02-27T17:02:47.529928334Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: f0108fbb6c0ed1f0264242f157e69ba412150de4ef2177ec1b9c3b1063d083ed
@@ -2018,7 +2033,7 @@ entries:
     version: 0.1.0-alpha.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.2
-    created: "2021-02-25T13:11:19.705605072Z"
+    created: "2021-02-27T17:02:47.529491333Z"
     description: A Helm chart that deploys a Kubernetes controller that transform
       Azure Key Vault Secrets into Kubernetes Secrets
     digest: edaf338636e47ea444d0f8720bb67e7505a2554e0c1df6c22533dca6a3fb21aa
@@ -2032,7 +2047,7 @@ entries:
   azure-key-vault-crd:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-02-25T13:11:19.740619276Z"
+    created: "2021-02-27T17:02:47.562994613Z"
     description: DEPRECATED! A Helm sub-chart for use with Azure Key Vault Controller
       and Azure Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
     digest: 2770e00ca495edffa0d3e6bc0f21a992c7d636331b9ff8ef45c84c842d6d20dc
@@ -2045,7 +2060,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-02-25T13:11:19.740388472Z"
+    created: "2021-02-27T17:02:47.562764913Z"
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
     digest: 79da88d7700fde4d5ab5e61d4d903b7745fb6c0f780e8c01ed15ebb81c02b47d
@@ -2058,7 +2073,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-02-25T13:11:19.740155368Z"
+    created: "2021-02-27T17:02:47.562532012Z"
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
     digest: 44f7914ed6165dce808d4a50aaf4213d6abcff55021062fcdac19d3985ad4279
@@ -2071,7 +2086,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-02-25T13:11:19.739914363Z"
+    created: "2021-02-27T17:02:47.562300112Z"
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
     digest: 099dcc53453646d1e5502693e3b58f419c89e2033a2f0ab9daa9643c51078080
@@ -2084,7 +2099,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2021-02-25T13:11:19.739656459Z"
+    created: "2021-02-27T17:02:47.562028511Z"
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
     digest: 4a05c96fa4b01904ccb5927b561d9f5d67943f70b5d0db90a52bccc49bd31cb5
@@ -2097,7 +2112,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2021-02-25T13:11:19.739395654Z"
+    created: "2021-02-27T17:02:47.561798811Z"
     description: A Helm sub-chart for use with Azure Key Vault Controller and Azure
       Key Vault Env Injector that deploys a Kubernetes Custom Resource Definition.
     digest: f7b8d2deb90ff8882ce915789141d7316e579fc054cecd3ef4dc173f5fded700
@@ -2111,7 +2126,7 @@ entries:
   azure-key-vault-env-injector:
   - apiVersion: v1
     appVersion: 1.1.10
-    created: "2021-02-25T13:11:19.835892418Z"
+    created: "2021-02-27T17:02:47.656707839Z"
     description: DEPRECATED! A Helm chart that deploys the azure-key-vault-env-injector
       Helm chart
     digest: e19a1a2e365d0272a19a1f3a21d6628cc083a49b23835e2822352b6a69ff7625
@@ -2125,7 +2140,7 @@ entries:
     version: 1.1.21
   - apiVersion: v1
     appVersion: 1.1.10
-    created: "2021-02-25T13:11:19.8348384Z"
+    created: "2021-02-27T17:02:47.655458136Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 846bcd7015fbb31bd8bbdc13b5904c8e100dbb1ad731fd6691130b461089fbe4
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2138,7 +2153,7 @@ entries:
     version: 1.1.20
   - apiVersion: v1
     appVersion: 1.1.10
-    created: "2021-02-25T13:11:19.832147253Z"
+    created: "2021-02-27T17:02:47.65277373Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 000c1f02c4a84d40a08e9857e527303ff552d3b6d37b400703c0cfbeff9be823
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2151,7 +2166,7 @@ entries:
     version: 1.1.19
   - apiVersion: v1
     appVersion: 1.1.10
-    created: "2021-02-25T13:11:19.830517925Z"
+    created: "2021-02-27T17:02:47.651390026Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 388364fc905f062eaf0b991d4dc9741ecc8a998730e7f049b81f061a328b4d54
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2164,7 +2179,7 @@ entries:
     version: 1.1.18
   - apiVersion: v1
     appVersion: 1.1.8
-    created: "2021-02-25T13:11:19.829499708Z"
+    created: "2021-02-27T17:02:47.649800923Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: f13759bad6e56254242d6b51b715c25c36a059c9650b8ccd3b7ee118de992913
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2177,7 +2192,7 @@ entries:
     version: 1.1.17
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.82846359Z"
+    created: "2021-02-27T17:02:47.64885602Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: d1f95865b1aea4db84a668b07aef6dfd3b9e86a733e7fcc1f69b3162a7a030c1
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2190,7 +2205,7 @@ entries:
     version: 1.1.16
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.827429672Z"
+    created: "2021-02-27T17:02:47.648022718Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 80dd7e29e31104307329a87370a80bd6d05b8c4f49e9a3e40839b5e5373bafb3
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2203,7 +2218,7 @@ entries:
     version: 1.1.15
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.826313653Z"
+    created: "2021-02-27T17:02:47.647169816Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 3a8ec1432017478fd7292d9854fddc3bf9e30d9a487631c048716fae82bbccfb
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2216,7 +2231,7 @@ entries:
     version: 1.1.14
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.825287835Z"
+    created: "2021-02-27T17:02:47.646305614Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 972a6358679c28302a6c69a460c2afd77f79227bbfb10fad093d332a27233b21
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2229,7 +2244,7 @@ entries:
     version: 1.1.13
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.824286418Z"
+    created: "2021-02-27T17:02:47.645341512Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: afd48f6dd7b938922928aa07e014a544f9a5b6896bb43885bccc9b7135ab86a5
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2242,7 +2257,7 @@ entries:
     version: 1.1.12
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.8232486Z"
+    created: "2021-02-27T17:02:47.64444461Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 74d939cfdaf85fc4760b2b4e8c42b1deb291a90fc1bdb5261a9663fec7a87738
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2255,7 +2270,7 @@ entries:
     version: 1.1.11
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.822237383Z"
+    created: "2021-02-27T17:02:47.643544707Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 4b650dc9da9b7a7c7e26c8f791770115a3102d73aabdffdfedf29dd399caa4ba
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2268,7 +2283,7 @@ entries:
     version: 1.1.10
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.842845038Z"
+    created: "2021-02-27T17:02:47.664056557Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: db511cc51706f2fcaf5d008f6de79eb4421573eeaa48c8af846284d6385a00ae
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2281,7 +2296,7 @@ entries:
     version: 1.1.9
   - apiVersion: v1
     appVersion: 1.1.7
-    created: "2021-02-25T13:11:19.84181902Z"
+    created: "2021-02-27T17:02:47.663084255Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: e5e1cf7ec6c7e1773ba83bb3436fcc81229ffa0aa87afd33424876ffacfd9562
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2294,7 +2309,7 @@ entries:
     version: 1.1.8
   - apiVersion: v1
     appVersion: 1.1.6
-    created: "2021-02-25T13:11:19.840831303Z"
+    created: "2021-02-27T17:02:47.662011052Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 85efbb49b48db4174e2f7494a0459a143c2e8382a497786123e85028011a1a31
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2307,7 +2322,7 @@ entries:
     version: 1.1.7
   - apiVersion: v1
     appVersion: 1.1.5
-    created: "2021-02-25T13:11:19.839833586Z"
+    created: "2021-02-27T17:02:47.660911349Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: e9df061cf0c7511b6650ea4a91c778419b8f7c7f67592f927a120b822bb85b34
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2320,7 +2335,7 @@ entries:
     version: 1.1.6
   - apiVersion: v1
     appVersion: 1.1.4
-    created: "2021-02-25T13:11:19.838817068Z"
+    created: "2021-02-27T17:02:47.659799447Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: e3b46d0e53f2d5232cc7ae7f9f4e945f533daf42cb60ae591e07b3974e4a79b9
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2333,7 +2348,7 @@ entries:
     version: 1.1.5
   - apiVersion: v1
     appVersion: 1.1.3
-    created: "2021-02-25T13:11:19.837814851Z"
+    created: "2021-02-27T17:02:47.658746344Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 92a13af728aed451edd7885d8b8ce76358ff093d2a78742f671e19caebb291ee
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2346,7 +2361,7 @@ entries:
     version: 1.1.4
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2021-02-25T13:11:19.836850435Z"
+    created: "2021-02-27T17:02:47.657689342Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 3268b3d6def29e30abe93ea351cd1ef81ef98d389f1171613b6a924a3ffaebec
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2359,7 +2374,7 @@ entries:
     version: 1.1.3
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2021-02-25T13:11:19.83366378Z"
+    created: "2021-02-27T17:02:47.654284533Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: c4a9330621b5f2036151ec639741bb46d71c3b85778d4abcee11941d60c5344d
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2372,7 +2387,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.821251766Z"
+    created: "2021-02-27T17:02:47.642491905Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 9dd23668df639aafdca46c11bcefb386552fd04042f6dc020f3b6faf5be3cc8d
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2385,7 +2400,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-02-25T13:11:19.820254148Z"
+    created: "2021-02-27T17:02:47.641588903Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 66916d3bdf8e10be6dd2396548d2ec2273c588d3d4cd682e02912b63aa102e50
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2398,7 +2413,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.1.0-beta.47
-    created: "2021-02-25T13:11:19.813259528Z"
+    created: "2021-02-27T17:02:47.634786186Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 7e519dce6518255a87fc1d288395d4b56181d97ac831aaf2f1d5b69085d15d35
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2411,7 +2426,7 @@ entries:
     version: 1.1.0-beta.47
   - apiVersion: v1
     appVersion: 1.1.0-beta.47
-    created: "2021-02-25T13:11:19.811681601Z"
+    created: "2021-02-27T17:02:47.633878184Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: e1c4ffa887576d2564734bb03244b77abb0259db2095a5152edf59a41f0368ba
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2424,7 +2439,7 @@ entries:
     version: 1.1.0-beta.46
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.810539681Z"
+    created: "2021-02-27T17:02:47.633033882Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 5fe5e646b8dad221b84f9b608c8666576402f1667b0c6a693a4c2aa0dc94b94f
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2437,7 +2452,7 @@ entries:
     version: 1.1.0-beta.45
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.809608365Z"
+    created: "2021-02-27T17:02:47.631806179Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: b95c196ce8d274ba02b80afd5920074ac761903dbfa0734b19d6a02c6a817a1b
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2450,7 +2465,7 @@ entries:
     version: 1.1.0-beta.44
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.808651948Z"
+    created: "2021-02-27T17:02:47.630910477Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 5be0030b426e4403b8c5ad77c45f9b124f815b93c4f8a20509036b8c03c6d31b
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2463,7 +2478,7 @@ entries:
     version: 1.1.0-beta.43
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.807675332Z"
+    created: "2021-02-27T17:02:47.629750474Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: af4af9e2a8141bde4ea4a52bd94839d3c49bf2ce2417275227842e5c80126968
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2476,7 +2491,7 @@ entries:
     version: 1.1.0-beta.42
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.806771616Z"
+    created: "2021-02-27T17:02:47.628852472Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: b6e843dd1d0192e6138f132993e58b75069934345443a7074b695d96c252f9e3
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2489,7 +2504,7 @@ entries:
     version: 1.1.0-beta.41
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.8058563Z"
+    created: "2021-02-27T17:02:47.627688369Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 5632c4d1b784f2d3eb05673baa65d214e09a11de3b15ee4fdd0b6afbd8035263
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2502,7 +2517,7 @@ entries:
     version: 1.1.0-beta.40
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.803241255Z"
+    created: "2021-02-27T17:02:47.624896263Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: d5fa06873a665800a2fef1272abc94f1e4d710298d465f1e2c2b270c9a50f8fe
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2515,7 +2530,7 @@ entries:
     version: 1.1.0-beta.39
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.80180113Z"
+    created: "2021-02-27T17:02:47.623611059Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: efdaed765fa8b5de3c933b48365a1daf6cd7efcffa7066c58d7699f069461536
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2528,7 +2543,7 @@ entries:
     version: 1.1.0-beta.38
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.800787413Z"
+    created: "2021-02-27T17:02:47.622823458Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 896577aeb82eaf2b17d85666dc603b1a1de7b1223a719dc9e67297a663a50daf
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2541,7 +2556,7 @@ entries:
     version: 1.1.0-beta.37
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.800084501Z"
+    created: "2021-02-27T17:02:47.622147156Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 42e6bdb05158f13efb681be2f83858ff28597e44c2eca2afc0680163a520f158
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2554,7 +2569,7 @@ entries:
     version: 1.1.0-beta.36
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.799351988Z"
+    created: "2021-02-27T17:02:47.621560155Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: b746ff9372f4676fae1a97f38b83c59760817da234058b073c1f5c3eb22aecba
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2567,7 +2582,7 @@ entries:
     version: 1.1.0-beta.35
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.798595575Z"
+    created: "2021-02-27T17:02:47.621006653Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: d1f71ea6a2cbea63b312e395ac5ce18e140fb29c7da8fcdc76a02b2b1dc427aa
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2580,7 +2595,7 @@ entries:
     version: 1.1.0-beta.34
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.797878763Z"
+    created: "2021-02-27T17:02:47.620449052Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: ea3a7390f3d100dac9bdf358de3db59ceb0363fc22841d0fe0872f05dd5fb01e
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2593,7 +2608,7 @@ entries:
     version: 1.1.0-beta.33
   - apiVersion: v1
     appVersion: 1.1.0-beta.45
-    created: "2021-02-25T13:11:19.797100949Z"
+    created: "2021-02-27T17:02:47.61983635Z"
     description: A Helm chart that deploys the azure-key-vault-env-injector Helm chart
     digest: 8cb92b75372d34d6e9b5791d91767117df50c2c381ba8f3fdb387e94a51f4a3b
     icon: https://raw.githubusercontent.com/SparebankenVest/azure-key-vault-to-kubernetes/master/akv2k8s_small.svgs
@@ -2606,7 +2621,7 @@ entries:
     version: 1.1.0-beta.32
   - apiVersion: v1
     appVersion: 1.1.0-beta.44
-    created: "2021-02-25T13:11:19.796401237Z"
+    created: "2021-02-27T17:02:47.619231849Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2624,7 +2639,7 @@ entries:
     version: 1.1.0-beta.31
   - apiVersion: v1
     appVersion: 1.1.0-beta.44
-    created: "2021-02-25T13:11:19.795116315Z"
+    created: "2021-02-27T17:02:47.618372847Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2642,7 +2657,7 @@ entries:
     version: 1.1.0-beta.30
   - apiVersion: v1
     appVersion: 1.1.0-beta.44
-    created: "2021-02-25T13:11:19.793206482Z"
+    created: "2021-02-27T17:02:47.616721943Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2660,7 +2675,7 @@ entries:
     version: 1.1.0-beta.29
   - apiVersion: v1
     appVersion: 1.1.0-beta.44
-    created: "2021-02-25T13:11:19.792237165Z"
+    created: "2021-02-27T17:02:47.615871241Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2678,7 +2693,7 @@ entries:
     version: 1.1.0-beta.28
   - apiVersion: v1
     appVersion: 1.1.0-beta.43
-    created: "2021-02-25T13:11:19.791201348Z"
+    created: "2021-02-27T17:02:47.614980139Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2696,7 +2711,7 @@ entries:
     version: 1.1.0-beta.27
   - apiVersion: v1
     appVersion: 1.1.0-beta.43
-    created: "2021-02-25T13:11:19.789963726Z"
+    created: "2021-02-27T17:02:47.613520435Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2714,7 +2729,7 @@ entries:
     version: 1.1.0-beta.26
   - apiVersion: v1
     appVersion: 1.1.0-beta.43
-    created: "2021-02-25T13:11:19.787961492Z"
+    created: "2021-02-27T17:02:47.611776431Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2732,7 +2747,7 @@ entries:
     version: 1.1.0-beta.25
   - apiVersion: v1
     appVersion: 1.1.0-beta.41
-    created: "2021-02-25T13:11:19.785969757Z"
+    created: "2021-02-27T17:02:47.610679928Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2750,7 +2765,7 @@ entries:
     version: 1.1.0-beta.24
   - apiVersion: v1
     appVersion: 1.1.0-beta.41
-    created: "2021-02-25T13:11:19.785006841Z"
+    created: "2021-02-27T17:02:47.609670126Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2768,7 +2783,7 @@ entries:
     version: 1.1.0-beta.23
   - apiVersion: v1
     appVersion: 1.1.0-beta.33
-    created: "2021-02-25T13:11:19.784034524Z"
+    created: "2021-02-27T17:02:47.608789924Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2786,7 +2801,7 @@ entries:
     version: 1.1.0-beta.22
   - apiVersion: v1
     appVersion: 1.1.0-beta.33
-    created: "2021-02-25T13:11:19.783047307Z"
+    created: "2021-02-27T17:02:47.607649221Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2804,7 +2819,7 @@ entries:
     version: 1.1.0-beta.21
   - apiVersion: v1
     appVersion: 1.1.0-beta.33
-    created: "2021-02-25T13:11:19.782102991Z"
+    created: "2021-02-27T17:02:47.606520018Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2822,7 +2837,7 @@ entries:
     version: 1.1.0-beta.20
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.780222858Z"
+    created: "2021-02-27T17:02:47.604662614Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2840,7 +2855,7 @@ entries:
     version: 1.1.0-beta.19
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.779196641Z"
+    created: "2021-02-27T17:02:47.603832412Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2858,7 +2873,7 @@ entries:
     version: 1.1.0-beta.18
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.778285425Z"
+    created: "2021-02-27T17:02:47.60295111Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2876,7 +2891,7 @@ entries:
     version: 1.1.0-beta.17
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.77739811Z"
+    created: "2021-02-27T17:02:47.601959807Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2894,7 +2909,7 @@ entries:
     version: 1.1.0-beta.16
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.776470094Z"
+    created: "2021-02-27T17:02:47.600961105Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2912,7 +2927,7 @@ entries:
     version: 1.1.0-beta.15
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.775464676Z"
+    created: "2021-02-27T17:02:47.599286701Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2930,7 +2945,7 @@ entries:
     version: 1.1.0-beta.14
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.774086853Z"
+    created: "2021-02-27T17:02:47.597595997Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2948,7 +2963,7 @@ entries:
     version: 1.1.0-beta.13
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.772626427Z"
+    created: "2021-02-27T17:02:47.596579094Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2965,7 +2980,7 @@ entries:
     version: 1.1.0-beta.12
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.77163651Z"
+    created: "2021-02-27T17:02:47.595050091Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2982,7 +2997,7 @@ entries:
     version: 1.1.0-beta.11
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.770668994Z"
+    created: "2021-02-27T17:02:47.594026788Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -2999,7 +3014,7 @@ entries:
     version: 1.1.0-beta.10
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.818741422Z"
+    created: "2021-02-27T17:02:47.6405632Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3016,7 +3031,7 @@ entries:
     version: 1.1.0-beta.9
   - apiVersion: v1
     appVersion: 1.1.0-beta.24
-    created: "2021-02-25T13:11:19.817354498Z"
+    created: "2021-02-27T17:02:47.639172197Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3033,7 +3048,7 @@ entries:
     version: 1.1.0-beta.8
   - apiVersion: v1
     appVersion: 1.1.0-beta.10
-    created: "2021-02-25T13:11:19.816116777Z"
+    created: "2021-02-27T17:02:47.637480593Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3050,7 +3065,7 @@ entries:
     version: 1.1.0-beta.7
   - apiVersion: v1
     appVersion: 1.1.0-beta.10
-    created: "2021-02-25T13:11:19.81513806Z"
+    created: "2021-02-27T17:02:47.63647069Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3067,7 +3082,7 @@ entries:
     version: 1.1.0-beta.6
   - apiVersion: v1
     appVersion: 1.1.0-beta.10
-    created: "2021-02-25T13:11:19.814198844Z"
+    created: "2021-02-27T17:02:47.635605488Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3084,7 +3099,7 @@ entries:
     version: 1.1.0-beta.5
   - apiVersion: v1
     appVersion: 1.1.0-beta.9
-    created: "2021-02-25T13:11:19.804881183Z"
+    created: "2021-02-27T17:02:47.626713967Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3101,7 +3116,7 @@ entries:
     version: 1.1.0-beta.4
   - apiVersion: v1
     appVersion: 1.1.0-beta.8
-    created: "2021-02-25T13:11:19.794153898Z"
+    created: "2021-02-27T17:02:47.617518245Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3118,7 +3133,7 @@ entries:
     version: 1.1.0-beta.3
   - apiVersion: v1
     appVersion: 1.1.0-beta.7
-    created: "2021-02-25T13:11:19.781155674Z"
+    created: "2021-02-27T17:02:47.605505516Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3135,7 +3150,7 @@ entries:
     version: 1.1.0-beta.2
   - apiVersion: v1
     appVersion: 1.1.0-beta.4
-    created: "2021-02-25T13:11:19.769691077Z"
+    created: "2021-02-27T17:02:47.592900985Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3152,7 +3167,7 @@ entries:
     version: 1.1.0-beta.1
   - apiVersion: v1
     appVersion: 1.0.3-beta.1
-    created: "2021-02-25T13:11:19.76874926Z"
+    created: "2021-02-27T17:02:47.591890883Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3169,7 +3184,7 @@ entries:
     version: 1.0.3-beta.5
   - apiVersion: v1
     appVersion: 1.0.3-beta.1
-    created: "2021-02-25T13:11:19.767860145Z"
+    created: "2021-02-27T17:02:47.590974181Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3186,7 +3201,7 @@ entries:
     version: 1.0.3-beta.4
   - apiVersion: v1
     appVersion: 1.0.3-beta.1
-    created: "2021-02-25T13:11:19.76695183Z"
+    created: "2021-02-27T17:02:47.590029979Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3203,7 +3218,7 @@ entries:
     version: 1.0.3-beta.3
   - apiVersion: v1
     appVersion: 1.0.3-beta.1
-    created: "2021-02-25T13:11:19.766071514Z"
+    created: "2021-02-27T17:02:47.589108676Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3220,7 +3235,7 @@ entries:
     version: 1.0.3-beta.2
   - apiVersion: v1
     appVersion: 1.0.3-beta.1
-    created: "2021-02-25T13:11:19.765190299Z"
+    created: "2021-02-27T17:02:47.588182074Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3237,7 +3252,7 @@ entries:
     version: 1.0.3-beta.1
   - apiVersion: v1
     appVersion: 1.0.2
-    created: "2021-02-25T13:11:19.764160181Z"
+    created: "2021-02-27T17:02:47.587286072Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3254,7 +3269,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2021-02-25T13:11:19.763275666Z"
+    created: "2021-02-27T17:02:47.58639707Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3271,7 +3286,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-02-25T13:11:19.762409951Z"
+    created: "2021-02-27T17:02:47.585262567Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3288,7 +3303,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.761123729Z"
+    created: "2021-02-27T17:02:47.583892564Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3305,7 +3320,7 @@ entries:
     version: 0.1.9
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.759967709Z"
+    created: "2021-02-27T17:02:47.58225586Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3322,7 +3337,7 @@ entries:
     version: 0.1.8
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.758797089Z"
+    created: "2021-02-27T17:02:47.581419858Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3339,7 +3354,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.758043876Z"
+    created: "2021-02-27T17:02:47.580381655Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3356,7 +3371,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.757282463Z"
+    created: "2021-02-27T17:02:47.579483953Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3373,7 +3388,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-02-25T13:11:19.75656245Z"
+    created: "2021-02-27T17:02:47.578719851Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3390,7 +3405,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.1.14
-    created: "2021-02-25T13:11:19.755840138Z"
+    created: "2021-02-27T17:02:47.57803745Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3407,7 +3422,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.1.10
-    created: "2021-02-25T13:11:19.755084125Z"
+    created: "2021-02-27T17:02:47.577280348Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3424,7 +3439,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.9
-    created: "2021-02-25T13:11:19.754360312Z"
+    created: "2021-02-27T17:02:47.576585846Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3441,7 +3456,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.1.8
-    created: "2021-02-25T13:11:19.7536417Z"
+    created: "2021-02-27T17:02:47.575907945Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3458,7 +3473,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.6
-    created: "2021-02-25T13:11:19.745690163Z"
+    created: "2021-02-27T17:02:47.567910025Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3475,7 +3490,7 @@ entries:
     version: 0.0.17
   - apiVersion: v1
     appVersion: 0.1.3
-    created: "2021-02-25T13:11:19.74495345Z"
+    created: "2021-02-27T17:02:47.567248524Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3492,7 +3507,7 @@ entries:
     version: 0.0.16
   - apiVersion: v1
     appVersion: 0.1.2
-    created: "2021-02-25T13:11:19.744236338Z"
+    created: "2021-02-27T17:02:47.566588622Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3509,7 +3524,7 @@ entries:
     version: 0.0.15
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2021-02-25T13:11:19.743483125Z"
+    created: "2021-02-27T17:02:47.56584282Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3526,7 +3541,7 @@ entries:
     version: 0.0.14
   - apiVersion: v1
     appVersion: 0.1.0-alpha.19
-    created: "2021-02-25T13:11:19.742761112Z"
+    created: "2021-02-27T17:02:47.565190719Z"
     dependencies:
     - condition: installCrd
       name: azure-key-vault-crd
@@ -3543,7 +3558,7 @@ entries:
     version: 0.0.12
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2021-02-25T13:11:19.7420393Z"
+    created: "2021-02-27T17:02:47.564441517Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -3559,7 +3574,7 @@ entries:
     version: 0.0.11
   - apiVersion: v1
     appVersion: 0.1.0-alpha.18
-    created: "2021-02-25T13:11:19.741325388Z"
+    created: "2021-02-27T17:02:47.563701415Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -3575,7 +3590,7 @@ entries:
     version: 0.0.10
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.752915088Z"
+    created: "2021-02-27T17:02:47.575167743Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -3591,7 +3606,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.752164775Z"
+    created: "2021-02-27T17:02:47.574432541Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -3607,7 +3622,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.751428462Z"
+    created: "2021-02-27T17:02:47.573711439Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -3623,7 +3638,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.750676049Z"
+    created: "2021-02-27T17:02:47.572972437Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -3639,7 +3654,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.749954236Z"
+    created: "2021-02-27T17:02:47.572245436Z"
     dependencies:
     - name: azure-key-vault-crd
       repository: https://charts.spvapi.no
@@ -3655,7 +3670,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.748478111Z"
+    created: "2021-02-27T17:02:47.570823332Z"
     dependencies:
     - condition: aad-pod-identity.enabled
       name: aad-pod-identity
@@ -3675,7 +3690,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.1.0-alpha.5
-    created: "2021-02-25T13:11:19.746797382Z"
+    created: "2021-02-27T17:02:47.569036928Z"
     dependencies:
     - condition: aad-pod-identity.enabled
       name: aad-pod-identity
@@ -3696,7 +3711,7 @@ entries:
   kyc-worker:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:19.845134277Z"
+    created: "2021-02-27T17:02:47.666047062Z"
     description: Helm Chart for Know Your Customer workers deployment
     digest: 1774575885e65a75852ceae548fd47a0a9fc680b49ada27972127f0e2ae91a90
     name: kyc-worker
@@ -3705,7 +3720,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:19.844422965Z"
+    created: "2021-02-27T17:02:47.665672661Z"
     description: Helm Chart for Know Your Customer workers deployment
     digest: b0c740464254f52e70eaaa3add3cac860f8164c2d5449880328500a54c2bd29d
     name: kyc-worker
@@ -3714,7 +3729,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:19.844086859Z"
+    created: "2021-02-27T17:02:47.66533666Z"
     description: Helm Chart for Know Your Customer workers deployment
     digest: f725cd24fab7e63e2b0b733a36d88d33fc58884e103f13931ef1037c6d44b8e4
     name: kyc-worker
@@ -3723,7 +3738,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:19.843760454Z"
+    created: "2021-02-27T17:02:47.664969159Z"
     description: Helm Chart for Know Your Customer workers deployment
     digest: 935ee3e8bf0fa8a4b76ccc992a3e7dd449897eae2c53f58f917684c3a64f794b
     name: kyc-worker
@@ -3732,7 +3747,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:19.843477549Z"
+    created: "2021-02-27T17:02:47.664671758Z"
     description: Helm Chart for Know Your Customer workers deployment
     digest: f53a70c74a21b479bd7d1f677bdecde5efc888240694490f35b56e9d7b04253a
     name: kyc-worker
@@ -3741,7 +3756,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:19.843166343Z"
+    created: "2021-02-27T17:02:47.664376658Z"
     description: Helm Chart for Know Your Customer workers deployment
     digest: c4548194a1a9376bf88919b40fc9eb3e2fee5c5d1d56113c1f42e5a230b4d6c4
     name: kyc-worker
@@ -3751,7 +3766,7 @@ entries:
   zeebe-cluster:
   - apiVersion: v2
     appVersion: 0.26.1
-    created: "2021-02-25T13:11:20.098773606Z"
+    created: "2021-02-27T17:02:47.925617787Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3766,7 +3781,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 0.26.0
-    created: "2021-02-25T13:11:20.096091561Z"
+    created: "2021-02-27T17:02:47.92273288Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3781,7 +3796,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.26.0
-    created: "2021-02-25T13:11:20.091924691Z"
+    created: "2021-02-27T17:02:47.919759173Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3796,7 +3811,7 @@ entries:
     version: 0.26.2
   - apiVersion: v1
     appVersion: 0.26.0
-    created: "2021-02-25T13:11:20.088783238Z"
+    created: "2021-02-27T17:02:47.915032762Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3811,7 +3826,7 @@ entries:
     version: 0.26.1
   - apiVersion: v1
     appVersion: 0.26.0
-    created: "2021-02-25T13:11:20.085679886Z"
+    created: "2021-02-27T17:02:47.911271252Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3826,7 +3841,7 @@ entries:
     version: 0.26.0
   - apiVersion: v1
     appVersion: 0.25.0
-    created: "2021-02-25T13:11:20.082477633Z"
+    created: "2021-02-27T17:02:47.906623241Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3849,7 +3864,7 @@ entries:
     version: 0.25.2
   - apiVersion: v1
     appVersion: 0.25.0
-    created: "2021-02-25T13:11:20.054481663Z"
+    created: "2021-02-27T17:02:47.880261078Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3872,7 +3887,7 @@ entries:
     version: 0.25.1
   - apiVersion: v1
     appVersion: 0.25.0
-    created: "2021-02-25T13:11:20.029742848Z"
+    created: "2021-02-27T17:02:47.850557906Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3895,7 +3910,7 @@ entries:
     version: 0.25.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.002989799Z"
+    created: "2021-02-27T17:02:47.824092942Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3918,7 +3933,7 @@ entries:
     version: 0.0.119
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:19.977342356Z"
+    created: "2021-02-27T17:02:47.799407383Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3941,7 +3956,7 @@ entries:
     version: 0.0.118
   - apiVersion: v1
     appVersion: 0.24.3
-    created: "2021-02-25T13:11:19.952248124Z"
+    created: "2021-02-27T17:02:47.770550613Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3964,7 +3979,7 @@ entries:
     version: 0.0.116
   - apiVersion: v1
     appVersion: 0.24.3
-    created: "2021-02-25T13:11:19.925306659Z"
+    created: "2021-02-27T17:02:47.744776751Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -3987,7 +4002,7 @@ entries:
     version: 0.0.115
   - apiVersion: v1
     appVersion: 0.24.1
-    created: "2021-02-25T13:11:19.899154409Z"
+    created: "2021-02-27T17:02:47.719777491Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -4010,7 +4025,7 @@ entries:
     version: 0.0.114
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:19.871866338Z"
+    created: "2021-02-27T17:02:47.691651323Z"
     dependencies:
     - condition: elasticsearch.enabled
       name: elasticsearch
@@ -4034,7 +4049,7 @@ entries:
   zeebe-operate:
   - apiVersion: v2
     appVersion: 0.26.0
-    created: "2021-02-25T13:11:20.10315928Z"
+    created: "2021-02-27T17:02:47.930446399Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: 23752320cccdd9466240052e70d55d5d6d4017443f5e2072c57ab7106779ef1c
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4044,7 +4059,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.102733672Z"
+    created: "2021-02-27T17:02:47.929806997Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: 6ffb144dcef5d98838b7878aba0033269c74104bc56c8ceb19f03c157a903371
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4054,7 +4069,7 @@ entries:
     version: 0.26.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.102306265Z"
+    created: "2021-02-27T17:02:47.929083995Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: e6790972872aa4ea8b23d8f3b116be1515601f75aa32e8375f73637b0f45ea7b
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4064,7 +4079,7 @@ entries:
     version: 0.25.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.101876658Z"
+    created: "2021-02-27T17:02:47.928641894Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: 0b9f24ce8baa2f4f0d6337e8423d6aa698727fc4e5fddcae4d43ae936fa19164
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4074,7 +4089,7 @@ entries:
     version: 0.0.121
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.101446851Z"
+    created: "2021-02-27T17:02:47.928224393Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: 62b54380474efa82a39ec6a45257cc3515bc75656be4ba96246e3224b0bcd2ba
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4084,7 +4099,7 @@ entries:
     version: 0.0.120
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.100995443Z"
+    created: "2021-02-27T17:02:47.927815692Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: 9c7b77f5ab738d5f753df16b5fdd2097f3c37948638094d9125f44588e2c7f47
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4094,7 +4109,7 @@ entries:
     version: 0.0.119
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.100550236Z"
+    created: "2021-02-27T17:02:47.927411891Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: fe60ae6dbc5a1ea53032f4ddd58c7f12240a1a000f48a3c752bef3bb17e88410
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4104,7 +4119,7 @@ entries:
     version: 0.0.118
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.100113228Z"
+    created: "2021-02-27T17:02:47.92697969Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: 295c5acd360e321b539e72d2de9f1f96c5c84c5140bb227d3a4114e3c88e014f
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4114,7 +4129,7 @@ entries:
     version: 0.0.116
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.099655421Z"
+    created: "2021-02-27T17:02:47.926544789Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: 1504f3883cc9c2ef1a1a22a212f4ea24a4c812e898eafa99644cba6a25f5fec5
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4124,7 +4139,7 @@ entries:
     version: 0.0.115
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-25T13:11:20.099223814Z"
+    created: "2021-02-27T17:02:47.926038188Z"
     description: Zeebe Operate Helm Chart for Kubernetes
     digest: 698d7c8e321421177f8332e65ba4c2a34d933b1f188910528c16d3436deea7be
     icon: https://zeebe.io/img/zeebe-logo.png
@@ -4132,4 +4147,4 @@ entries:
     urls:
     - zeebe-operate/zeebe-operate-0.0.114.tgz
     version: 0.0.114
-generated: "2021-02-25T13:11:19.585545502Z"
+generated: "2021-02-27T17:02:47.395098409Z"
